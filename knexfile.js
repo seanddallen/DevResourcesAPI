@@ -1,7 +1,7 @@
 const connectionString =
         process.platform === 'win32'
-                ? 'postgres://postgres:root@localhost/volunteer'
-                : 'postgres://localhost/volunteer';
+                ? 'postgres://postgres:root@localhost/dev_resources'
+                : 'postgres://localhost/dev_resources';
 
 module.exports = {
         development: {

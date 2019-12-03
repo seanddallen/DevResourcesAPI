@@ -4,6 +4,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const logger = require('morgan');
+const { Model } = require('objection');
+const knexInstance = require('./db/knex');
+
+
+Model.knex(knexInstance)
 
 // Routes
 

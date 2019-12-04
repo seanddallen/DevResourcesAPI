@@ -44,7 +44,7 @@ class Resource extends Model {
         title: { type: "string", minLength: 1, maxLength: 255 },
         creator: { type: "string", minLength: 1, maxLength: 255 },
         creation_year: { type: "integer" },
-        url: { type: "string", minLength: 1, maxLength: 255 ,
+        url: { type: "string", minLength: 1, maxLength: 255 } ,
         description: { type: "string", minLength: 1, maxLength: 255 },
         image: { type: "string", minLength: 1, maxLength: 255 },
         price: { type: "string", minLength: 1, maxLength: 255 },
@@ -54,4 +54,7 @@ class Resource extends Model {
       }
     };
   }
+
 }
+
+module.exports = Resourse

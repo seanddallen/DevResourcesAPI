@@ -4,8 +4,8 @@ const router = express.Router();
 const tagsController = require('../controllers/tags');
 
 router.get('/tags', tagsController.getAllTags);
-router.get('/tags/:id', tagsController.getOnetag);
-router.post('/tags', tagsController.addtag);
+router.get('/tags/:resource_id', tagsController.getAllResourceTags);
+router.post('/tags/:resource_id', tagsController.addtag);
 router.patch('/tags/:id', tagsController.updatetag);
 router.delete('/tags/:id', tagsController.removetag);
 

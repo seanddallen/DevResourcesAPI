@@ -5,8 +5,7 @@ const favoritesController = require('../controllers/favorites');
 
 router.get('/favorites', favoritesController.getAllFavorites);
 router.get('/favorites/:id', favoritesController.getOneFavorite);
-router.post('/favorites', favoritesController.addFavorite);
-router.patch('/favorites/:id', favoritesController.updateFavorite);
+router.post('/favorites/:resource_id', favoritesController.addFavorite);
 router.delete('/favorites/:id', favoritesController.removeFavorite);
 
 module.exports = router;

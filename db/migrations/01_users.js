@@ -11,6 +11,13 @@ exports.up = function(knex, Promise) {
     table.string('experience').notNullable();
     table.string('years').notNullable();
     table.string('specialty').notNullable();
+    table.string('linkedinUrl');
+    table.string('githubUrl');
+    table.string('personalUrl');
+    table.integer('score').notNullable();
+    table.string('role').notNullable();
+    table.string('image');
+    table.boolean('approved').notNullable();
     table.timestamps(true, true);
   });
 };

@@ -4,12 +4,6 @@ exports.getAllVotes = (req, res) => {
   knex('votes').then(votes => res.json(votes));
 };
 
-exports.getOneVote = (req, res) => {
-  knex('votes')
-    .where('id', req.params.id)
-    .then(vote => res.json(vote));
-};
-
 exports.addVote = (req, res) => {
   knex('votes')
     .insert(req.body)

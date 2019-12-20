@@ -1,9 +1,9 @@
-const { Model } = require("objection")
+const { Model } = require('objection');
 
 class Review extends Model {
-  //Name of the table
+  // Name of the table
   static get tableName() {
-    return "reviews"
+    return 'reviews';
   }
 
   // Mapping any relations
@@ -22,28 +22,23 @@ class Review extends Model {
   //   };
   // }
 
-  //JSON Schema used for validation
+  // JSON Schema used for validation
   static get jsonSchema() {
     return {
-      type: "object",
-      required: [
-        "user_id",
-        "resource_id",
-        "content",
-        "rating"
-      ],
+      type: 'object',
+      required: ['user_id', 'resource_id', 'content', 'rating'],
 
       properties: {
-        id: { type: "integer" },
-        user_id: { type: "integer" },
-        resource_id: { type: "integer" },
-        content: { type: "string", minLength: 1, maxLength: 255 },
-        rating: { type: "integer" },
-        created_at: { type: "string", minLength: 1, maxLength: 255 },
-        updated_at: { type: "string", minLength: 1, maxLength: 255 }
-      }
+        id: { type: 'integer' },
+        user_id: { type: 'integer' },
+        resource_id: { type: 'integer' },
+        content: { type: 'string', minLength: 1, maxLength: 255 },
+        rating: { type: 'integer' },
+        created_at: { type: 'string', minLength: 1, maxLength: 255 },
+        updated_at: { type: 'string', minLength: 1, maxLength: 255 },
+      },
     };
   }
 }
 
-module.exports = Review
+module.exports = Review;

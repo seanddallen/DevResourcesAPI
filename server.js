@@ -7,8 +7,7 @@ const logger = require('morgan');
 const { Model } = require('objection');
 const knexInstance = require('./db/knex');
 
-
-Model.knex(knexInstance)
+Model.knex(knexInstance);
 
 // Routes
 

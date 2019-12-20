@@ -1,9 +1,9 @@
-const { Model } = require("objection");
+const { Model } = require('objection');
 
 class Vote extends Model {
-  //Name of the table
+  // Name of the table
   static get tableName() {
-    return "votes"
+    return 'votes';
   }
 
   // Mapping any relations
@@ -22,26 +22,22 @@ class Vote extends Model {
   //   };
   // }
 
-  //JSON Schema used for validation
+  // JSON Schema used for validation
   static get jsonSchema() {
     return {
-      type: "object",
-      required: [
-        "user_id",
-        "resource_id",
-        "type"
-      ],
+      type: 'object',
+      required: ['user_id', 'resource_id', 'type'],
 
       properties: {
-        id: { type: "integer" },
-        user_id: { type: "integer" },
-        type: { type: "integer" },
-        content: { type: "string", minLength: 1, maxLength: 255 },
-        created_at: { type: "string", minLength: 1, maxLength: 255 },
-        updated_at: { type: "string", minLength: 1, maxLength: 255 }
-      }
+        id: { type: 'integer' },
+        user_id: { type: 'integer' },
+        type: { type: 'integer' },
+        content: { type: 'string', minLength: 1, maxLength: 255 },
+        created_at: { type: 'string', minLength: 1, maxLength: 255 },
+        updated_at: { type: 'string', minLength: 1, maxLength: 255 },
+      },
     };
   }
 }
 
-module.exports = Vote
+module.exports = Vote;

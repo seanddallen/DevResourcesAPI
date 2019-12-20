@@ -1,9 +1,9 @@
-const { Model } = require("objection");
+const { Model } = require('objection');
 
 class Tag extends Model {
-  //Name of the table
+  // Name of the table
   static get tableName() {
-    return "tags"
+    return 'tags';
   }
 
   // Mapping any relations
@@ -22,21 +22,21 @@ class Tag extends Model {
   //   };
   // }
 
-  //JSON Schema used for validation
+  // JSON Schema used for validation
   static get jsonSchema() {
     return {
-      type: "object",
-      required: ["resource_id"],
+      type: 'object',
+      required: ['resource_id'],
 
       properties: {
-        id: { type: "integer" },
-        resource_id: { type: "integer" },
-        name: { type: "string", minLength: 1, maxLength: 255 },
-        created_at: { type: "string", minLength: 1, maxLength: 255 },
-        updated_at: { type: "string", minLength: 1, maxLength: 255 }
-      }
+        id: { type: 'integer' },
+        resource_id: { type: 'integer' },
+        name: { type: 'string', minLength: 1, maxLength: 255 },
+        created_at: { type: 'string', minLength: 1, maxLength: 255 },
+        updated_at: { type: 'string', minLength: 1, maxLength: 255 },
+      },
     };
   }
 }
 
-module.exports = Tag
+module.exports = Tag;

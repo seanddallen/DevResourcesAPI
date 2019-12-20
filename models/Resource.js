@@ -1,10 +1,9 @@
 const { Model } = require('objection');
 
-
 class Resource extends Model {
-  //Name of the table
+  // Name of the table
   static get tableName() {
-    return 'resources'
+    return 'resources';
   }
 
   // Mapping any relations
@@ -23,38 +22,29 @@ class Resource extends Model {
   //   };
   // }
 
-  //JSON Schema used for validation
+  // JSON Schema used for validation
   static get jsonSchema() {
     return {
-      type: "object",
-      required: [
-        "type",
-        "subtype",
-        "title",
-        "description",
-        "url",
-        "price",
-        "skill_level"
-      ],
+      type: 'object',
+      required: ['type', 'subtype', 'title', 'description', 'url', 'price', 'skill_level'],
 
       properties: {
-        id: { type: "integer" },
-        type: { type: "string", minLength: 1, maxLength: 255 },
-        subtype: { type: "string", minLength: 1, maxLength: 255 },
-        title: { type: "string", minLength: 1, maxLength: 255 },
-        creator: { type: "string", minLength: 1, maxLength: 255 },
-        creation_year: { type: "integer" },
-        url: { type: "string", minLength: 1, maxLength: 255 } ,
-        description: { type: "string", minLength: 1, maxLength: 255 },
-        image: { type: "string", minLength: 1, maxLength: 255 },
-        price: { type: "string", minLength: 1, maxLength: 255 },
-        skill_level: { type: "string", minLength: 1, maxLength: 255 },
-        created_at: { type: "string", minLength: 1, maxLength: 255 },
-        updated_at: { type: "string", minLength: 1, maxLength: 255 }
-      }
+        id: { type: 'integer' },
+        type: { type: 'string', minLength: 1, maxLength: 255 },
+        subtype: { type: 'string', minLength: 1, maxLength: 255 },
+        title: { type: 'string', minLength: 1, maxLength: 255 },
+        creator: { type: 'string', minLength: 1, maxLength: 255 },
+        creation_year: { type: 'integer' },
+        url: { type: 'string', minLength: 1, maxLength: 255 },
+        description: { type: 'string', minLength: 1, maxLength: 255 },
+        image: { type: 'string', minLength: 1, maxLength: 255 },
+        price: { type: 'string', minLength: 1, maxLength: 255 },
+        skill_level: { type: 'string', minLength: 1, maxLength: 255 },
+        created_at: { type: 'string', minLength: 1, maxLength: 255 },
+        updated_at: { type: 'string', minLength: 1, maxLength: 255 },
+      },
     };
   }
-
 }
 
-module.exports = Resourse
+module.exports = Resourse;

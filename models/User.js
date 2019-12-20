@@ -1,10 +1,9 @@
 const { Model } = require('objection');
 
-
 class User extends Model {
-  //Name of the table
+  // Name of the table
   static get tableName() {
-    return 'users'
+    return 'users';
   }
 
   // Mapping any relations
@@ -23,41 +22,40 @@ class User extends Model {
   //   };
   // }
 
-  //JSON Schema used for validation
+  // JSON Schema used for validation
   static get jsonSchema() {
     return {
-      type: "object",
+      type: 'object',
       required: [
-        "first_name",
-        "last_name",
-        "username",
-        "email",
-        "freelance",
-        "employed",
-        "education",
-        "experience",
-        "years",
-        "specialty"
+        'first_name',
+        'last_name',
+        'username',
+        'email',
+        'freelance',
+        'employed',
+        'education',
+        'experience',
+        'years',
+        'specialty',
       ],
 
       properties: {
-        id: { type: "integer" },
-        first_name: { type: "string", minLength: 1, maxLength: 255 },
-        last_name: { type: "string", minLength: 1, maxLength: 255 },
-        username: { type: "string", minLength: 1, maxLength: 255 },
-        email: { type: "string", minLength: 1, maxLength: 255 },
-        freelance: { type: "boolean" },
-        employed: { type: "boolean" },
-        education: { type: "string", minLength: 1, maxLength: 255 },
-        experience: { type: "string", minLength: 1, maxLength: 255 },
-        years: { type: "string", minLength: 1, maxLength: 255 },
-        specialty: { type: "string", minLength: 1, maxLength: 255 },
-        created_at: { type: "string", minLength: 1, maxLength: 255 },
-        updated_at: { type: "string", minLength: 1, maxLength: 255 }
-      }
+        id: { type: 'integer' },
+        first_name: { type: 'string', minLength: 1, maxLength: 255 },
+        last_name: { type: 'string', minLength: 1, maxLength: 255 },
+        username: { type: 'string', minLength: 1, maxLength: 255 },
+        email: { type: 'string', minLength: 1, maxLength: 255 },
+        freelance: { type: 'boolean' },
+        employed: { type: 'boolean' },
+        education: { type: 'string', minLength: 1, maxLength: 255 },
+        experience: { type: 'string', minLength: 1, maxLength: 255 },
+        years: { type: 'string', minLength: 1, maxLength: 255 },
+        specialty: { type: 'string', minLength: 1, maxLength: 255 },
+        created_at: { type: 'string', minLength: 1, maxLength: 255 },
+        updated_at: { type: 'string', minLength: 1, maxLength: 255 },
+      },
     };
   }
-
 }
 
-module.exports = User
+module.exports = User;

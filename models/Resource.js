@@ -1,4 +1,7 @@
 const { Model } = require('objection');
+const Vote = require('./Vote');
+const Review = require('./Review');
+const Tag = require('./Tag');
 
 class Resource extends Model {
   // Name of the table
@@ -8,19 +11,36 @@ class Resource extends Model {
 
   // Mapping any relations
   // Example is a 1 to many relation
-  // static get relationMappings() {
-  //   const [Model Name] = require("./[Model path]");
-  //   return {
-  //     [Related Table Name]: {
-  //       relation: Model.HasManyRelation,
-  //       modelClass: [Model Name],
-  //       join: {
-  //         from: "users.id",
-  //         to: "[Table Name].user_id"
-  //       }
-  //     }
-  //   };
-  // }
+  static get relationMappings() {
+    return {
+      votes: {
+        relation: Model.HasManyRelation,
+        modelClass: Vote,
+        join: {
+          from: 'resources.id',
+          to: 'votes.resource_id',
+        },
+      },
+
+      reviews: {
+        relation: Model.HasManyRelation,
+        modelClass: Review,
+        join: {
+          from: 'resources.id',
+          to: 'reviews.resource_id',
+        },
+      },
+
+      tags: {
+        relation: Model.HasManyRelation,
+        modelClass: Tag,
+        join: {
+          from: 'resources.id',
+          to: 'tags.resource_id',
+        },
+      },
+    };
+  }
 
   // JSON Schema used for validation
   static get jsonSchema() {
@@ -47,4 +67,4 @@ class Resource extends Model {
   }
 }
 
-module.exports = Resourse;
+module.exports = Resource;

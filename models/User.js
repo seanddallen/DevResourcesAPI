@@ -1,4 +1,8 @@
 const { Model } = require('objection');
+const Comment = require('./Comment');
+const Favorite = require('./Favorite');
+const Vote = require('./Vote');
+const Review = require('./Review');
 
 class User extends Model {
   // Name of the table
@@ -8,19 +12,44 @@ class User extends Model {
 
   // Mapping any relations
   // Example is a 1 to many relation
-  // static get relationMappings() {
-  //   const [Model Name] = require("./[Model path]");
-  //   return {
-  //     [Related Table Name]: {
-  //       relation: Model.HasManyRelation,
-  //       modelClass: [Model Name],
-  //       join: {
-  //         from: "users.id",
-  //         to: "[Table Name].user_id"
-  //       }
-  //     }
-  //   };
-  // }
+  static get relationMappings() {
+    return {
+      comments: {
+        relation: Model.HasManyRelation,
+        modelClass: Comment,
+        join: {
+          from: 'users.id',
+          to: 'comments.user_id',
+        },
+      },
+
+      favorites: {
+        relation: Model.HasManyRelation,
+        modelClass: Favorite,
+        join: {
+          from: 'users.id',
+          to: 'favorites.user_id',
+        },
+      },
+
+      votes: {
+        relation: Model.HasManyRelation,
+        modelClass: Vote,
+        join: {
+          from: 'users.id',
+          to: 'votes.user_id',
+        },
+      },
+      reviews: {
+        relation: Model.HasManyRelation,
+        modelClass: Review,
+        join: {
+          from: 'users.id',
+          to: 'reviews.user_id',
+        },
+      },
+    };
+  }
 
   // JSON Schema used for validation
   static get jsonSchema() {

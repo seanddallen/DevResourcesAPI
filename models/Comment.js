@@ -9,14 +9,14 @@ class Comment extends Model {
   // Mapping any relations
   // Example is a 1 to many relation
   // static get relationMappings() {
-  //   const [Model Name] = require("./[Model path]");
+  //   const User = require('./User');
   //   return {
-  //     [Related Table Name]: {
+  //     users: {
   //       relation: Model.HasManyRelation,
-  //       modelClass: [Model Name],
+  //       modelClass: User,
   //       join: {
-  //         from: "users.id",
-  //         to: "[Table Name].user_id"
+  //         from: "comments.id",
+  //         to: "users.id"
   //       }
   //     }
   //   };

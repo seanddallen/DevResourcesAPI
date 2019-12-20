@@ -11,6 +11,8 @@ exports.up = function(knex, Promise) {
                 table.string('image');
                 table.string('price').notNullable();
                 table.string('skill_level').notNullable();
+                table.integer('shares').notNullable();
+                table.boolean('approved').notNullable();
                 table.timestamps(true, true);
         });
 };

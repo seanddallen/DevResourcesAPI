@@ -17,14 +17,6 @@ exports.addFavorite = (req, res) => {
                 .then(newFavorite => res.json(newFavorite));
 };
 
-exports.updateFavorite = (req, res) => {
-        knex('favorites')
-                .where('id', req.params.id)
-                .update(req.body)
-                .returning('*')
-                .then(updatedFavorite => res.json(updatedFavorite));
-};
-
 exports.removeFavorite = (req, res) => {
         knex('favorites')
                 .del()

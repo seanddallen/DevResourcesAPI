@@ -13,6 +13,7 @@ exports.up = function(knex, Promise) {
                         .notNullable();
                 table.string('content').notNullable();
                 table.integer('rating').notNullable();
+                table.boolean('approved').notNullable();
                 table.timestamps(true, true);
         });
 };

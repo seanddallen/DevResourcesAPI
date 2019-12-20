@@ -17,6 +17,7 @@ exports.up = function(knex, Promise) {
                 table.integer('score').notNullable();
                 table.string('role').notNullable();
                 table.string('image');
+                table.boolean('approved').notNullable();
                 table.timestamps(true, true);
         });
 };

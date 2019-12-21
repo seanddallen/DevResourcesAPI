@@ -17,7 +17,7 @@ exports.addVote = (req, res) => {
     .then(newUser => res.json(newUser));
 };
 
-exports.updateUser = (req, res) => {
+exports.updateVote = (req, res) => {
   knex('votes')
     .where('id', req.params.id)
     .update(req.body)

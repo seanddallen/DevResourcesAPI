@@ -8,6 +8,7 @@ exports.getOneTag = (req, res) => {
   knex('tags')
     .where('id', req.params.id)
     .then(tag => res.json(tag));
+};
 
 exports.getAllResourceTags = (req, res) => {
   knex('tags')

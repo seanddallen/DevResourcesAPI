@@ -1,5 +1,4 @@
 exports.up = function(knex, Promise) {
-
   return knex.schema.createTable('resources', table => {
     table.increments();
     table.string('type').notNullable();
@@ -8,7 +7,7 @@ exports.up = function(knex, Promise) {
     table.string('creator');
     table.integer('creation_year');
     table.string('url').notNullable();
-    table.string('description').notNullable();
+    table.string('description', 1000).notNullable();
     table.string('image');
     table.string('price').notNullable();
     table.string('skill_level').notNullable();

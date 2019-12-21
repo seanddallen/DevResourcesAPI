@@ -4,7 +4,7 @@ exports.getAllReviews = (req, res) => {
   knex('reviews').then(reviews => res.json(reviews));
 };
 
-exports.getOneTag = (req, res) => {
+exports.getOneReview = (req, res) => {
   knex('reviews')
     .where('id', req.params.id)
     .then(review => res.json(review));

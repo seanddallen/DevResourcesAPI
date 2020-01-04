@@ -9,7 +9,15 @@ const knexInstance = require('./db/knex');
 
 Model.knex(knexInstance);
 
+const port = process.env.PORT || 8000;
 // Routes
+const users = require('./routes/users');
+const resources = require('./routes/resources');
+const reviews = require('./routes/reviews');
+const comments = require('./routes/comments');
+const favorites = require('./routes/favorites');
+const tags = require('./routes/tags');
+const votes = require('./routes/votes');
 
 const app = express();
 
@@ -22,5 +30,15 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Apply Routes
+app.use('/', users);
+app.use('/', resources);
+app.use('/', reviews);
+app.use('/', comments);
+app.use('/', favorites);
+app.use('/', tags);
+app.use('/', votes);
 
-module.exports = { app };
+app.listen(port, function() {
+  // eslint-disable-next-line no-console
+  console.log('listening on port: ', port);
+});

@@ -10,10 +10,10 @@ exports.up = function(knex, Promise) {
     table
       .integer('resource_id')
       .references('id')
-      .inTable('users')
+      .inTable('resources')
       .onDelete('cascade')
       .notNullable();
-    table.string('content').notNullable();
+    table.string('content', 1000).notNullable();
     table.integer('rating').notNullable();
     table.timestamps(true, true);
   });

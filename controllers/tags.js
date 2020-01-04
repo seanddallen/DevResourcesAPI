@@ -6,7 +6,7 @@ exports.getAllTags = (req, res) => {
 
 exports.getAllResourceTags = (req, res) => {
   knex('tags')
-    .where('resource_id', req.params.id)
+    .where('resource_id', req.params.resource_id)
     .then(tag => res.json(tag));
 };
 

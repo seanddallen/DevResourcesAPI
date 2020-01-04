@@ -7,10 +7,12 @@ exports.up = function(knex, Promise) {
     table.string('creator');
     table.integer('creation_year');
     table.string('url').notNullable();
-    table.string('description').notNullable();
+    table.string('description', 1000).notNullable();
     table.string('image');
     table.string('price').notNullable();
     table.string('skill_level').notNullable();
+    table.integer('shares').notNullable();
+    table.boolean('approved').notNullable();
     table.timestamps(true, true);
   });
 };

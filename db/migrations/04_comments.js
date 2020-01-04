@@ -13,7 +13,7 @@ exports.up = function(knex, Promise) {
       .inTable('reviews')
       .onDelete('cascade')
       .notNullable();
-    table.string('content').notNullable();
+    table.string('content', 1000).notNullable();
     table.timestamps(true, true);
   });
 };

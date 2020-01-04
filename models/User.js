@@ -31,7 +31,6 @@ class User extends Model {
           to: 'favorites.user_id',
         },
       },
-
       votes: {
         relation: Model.HasManyRelation,
         modelClass: Vote,

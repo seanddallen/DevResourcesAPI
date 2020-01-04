@@ -1,34 +1,33 @@
-const knex = require('../db/knex');
+const Review = require('../models/Review');
 
-exports.getAllReviews = (req, res) => {
-  knex('reviews').then(reviews => res.json(reviews));
+exports.getAllReviews = async (req, res) => {
+  const reviews = await Review.query();
+  res.json(reviews);
 };
 
-exports.getOneReview = (req, res) => {
-  knex('reviews')
-    .where('id', req.params.id)
-    .then(review => res.json(review));
+exports.getOneReview = async (req, res) => {
+  const review = await Review.query().findById(req.params.id);
+  res.json(review);
 };
 
-exports.addReview = (req, res) => {
-  knex('reviews')
+exports.addReview = async (req, res) => {
+  const newReview = await Review.query()
     .insert(req.body)
-    .returning('*')
-    .then(newReview => res.json(newReview));
+    .returning('*');
+  res.json(newReview);
 };
 
-exports.updateReview = (req, res) => {
-  knex('reviews')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedReview => res.json(updatedReview));
+exports.updateReview = async (req, res) => {
+  const updatedReview = await Review.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedReview);
 };
 
-exports.removeReview = (req, res) => {
-  knex('reviews')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedReview => res.json(removedReview));
+exports.removeReview = async (req, res) => {
+  const deletedReview = await Review.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedReview);
 };

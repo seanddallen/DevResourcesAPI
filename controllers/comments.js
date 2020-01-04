@@ -1,34 +1,33 @@
-const knex = require('../db/knex');
+const Comment = require('../models/Comment');
 
-exports.getAllComments = (req, res) => {
-  knex('comments').then(comments => res.json(comments));
+exports.getAllComments = async (req, res) => {
+  const comments = await Comment.query();
+  res.json(comments);
 };
 
-exports.getOneComment = (req, res) => {
-  knex('comments')
-    .where('id', req.params.id)
-    .then(comment => res.json(comment));
+exports.getOneComment = async (req, res) => {
+  const comment = await Comment.query().findById(req.params.id);
+  res.json(comment);
 };
 
-exports.addComment = (req, res) => {
-  knex('comments')
+exports.addComment = async (req, res) => {
+  const newComment = await Comment.query()
     .insert(req.body)
-    .returning('*')
-    .then(newUser => res.json(newUser));
+    .returning('*');
+  res.json(newComment);
 };
 
-exports.updateComment = (req, res) => {
-  knex('comments')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedComment => res.json(updatedComment));
+exports.updateComment = async (req, res) => {
+  const updatedComment = await Comment.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedComment);
 };
 
-exports.removeComment = (req, res) => {
-  knex('comments')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedComment => res.json(removedComment));
+exports.removeComment = async (req, res) => {
+  const deletedComment = await Comment.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedComment);
 };

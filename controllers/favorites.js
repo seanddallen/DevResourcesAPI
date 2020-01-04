@@ -1,34 +1,33 @@
-const knex = require('../db/knex');
+const Favorite = require('../models/Favorite');
 
-exports.getAllFavorites = (req, res) => {
-  knex('favorites').then(favorites => res.json(favorites));
+exports.getAllFavorites = async (req, res) => {
+  const favorites = await Favorite.query();
+  res.json(favorites);
 };
 
-exports.getOneFavorite = (req, res) => {
-  knex('favorites')
-    .where('id', req.params.id)
-    .then(favorite => res.json(favorite));
+exports.getOneFavorite = async (req, res) => {
+  const favorite = Favorite.query().findById(req.params.id);
+  res.json(favorite);
 };
 
-exports.addFavorite = (req, res) => {
-  knex('favorites')
+exports.addFavorite = async (req, res) => {
+  const newFavorite = await Favorite.query()
     .insert(req.body)
-    .returning('*')
-    .then(newFavorite => res.json(newFavorite));
+    .returning('*');
+  res.json(newFavorite);
 };
 
-exports.updateFavorite = (req, res) => {
-  knex('favorites')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedFavorite => res.json(updatedFavorite));
+exports.updateFavorite = async (req, res) => {
+  const updatedFavorite = await Favorite.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedFavorite);
 };
 
-exports.removeFavorite = (req, res) => {
-  knex('favorites')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedFavorite => res.json(removedFavorite));
+exports.removeFavorite = async (req, res) => {
+  const deletedFavorite = await Favorite.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedFavorite);
 };

@@ -1,34 +1,33 @@
-const knex = require('../db/knex');
+const Vote = require('../models/Vote');
 
-exports.getAllVotes = (req, res) => {
-  knex('votes').then(votes => res.json(votes));
+exports.getAllVotes = async (req, res) => {
+  const votes = await Vote.query();
+  res.json(votes);
 };
 
-exports.getOneVote = (req, res) => {
-  knex('votes')
-    .where('id', req.params.id)
-    .then(vote => res.json(vote));
+exports.getOneVote = async (req, res) => {
+  const vote = await Vote.query().findById(req.params.id);
+  res.json(vote);
 };
 
-exports.addVote = (req, res) => {
-  knex('votes')
+exports.addVote = async (req, res) => {
+  const newVote = await Vote.query()
     .insert(req.body)
-    .returning('*')
-    .then(newUser => res.json(newUser));
+    .returning('*');
+  res.json(newVote);
 };
 
-exports.updateVote = (req, res) => {
-  knex('votes')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedVote => res.json(updatedVote));
+exports.updateVote = async (req, res) => {
+  const updatedVoted = await Vote.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedVoted);
 };
 
-exports.removeVote = (req, res) => {
-  knex('votes')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedVote => res.json(removedVote));
+exports.removeVote = async (req, res) => {
+  const deletedVote = await Vote.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedVote);
 };

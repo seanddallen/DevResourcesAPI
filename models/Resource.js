@@ -46,7 +46,19 @@ class Resource extends Model {
   static get jsonSchema() {
     return {
       type: 'object',
-      required: ['type', 'subtype', 'title', 'description', 'url', 'price', 'skill_level', 'shares', 'approved'],
+      required: [
+        'type',
+        'subtype',
+        'title',
+        'description',
+        'url',
+        'price',
+        'skill_level',
+        'shares',
+        'approved',
+        'upvotes',
+        'downvotes',
+      ],
 
       properties: {
         id: { type: 'integer' },
@@ -60,10 +72,12 @@ class Resource extends Model {
         image: { type: 'string', minLength: 1, maxLength: 255 },
         price: { type: 'string', minLength: 1, maxLength: 255 },
         skill_level: { type: 'string', minLength: 1, maxLength: 255 },
+        shares: { type: 'integer' },
+        upvotes: { type: 'integer' },
+        downvotes: { type: 'integer' },
+        approved: { type: 'boolean' },
         created_at: { type: 'string', minLength: 1, maxLength: 255 },
         updated_at: { type: 'string', minLength: 1, maxLength: 255 },
-        shares: { type: 'integer' },
-        approved: { type: 'boolean' },
       },
     };
   }

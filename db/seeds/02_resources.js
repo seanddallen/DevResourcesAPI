@@ -19,6 +19,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 455,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -34,6 +36,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 272,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -49,6 +53,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 210,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -64,6 +70,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 11,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -79,6 +87,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 326,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -94,6 +104,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 359,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -109,6 +121,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 300,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -124,6 +138,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 409,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -139,6 +155,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 367,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -154,6 +172,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 257,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -169,6 +189,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 49,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -184,6 +206,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 208,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -199,6 +223,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 233,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -214,6 +240,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 461,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -229,6 +257,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 87,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -244,6 +274,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 113,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -259,6 +291,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 423,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -274,6 +308,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 330,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -289,6 +325,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 274,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -304,6 +342,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 285,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -319,6 +359,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 109,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -334,6 +376,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 498,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -349,6 +393,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 251,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -364,6 +410,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 270,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -379,6 +427,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 302,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -394,6 +444,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 325,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -409,6 +461,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 393,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -424,6 +478,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 165,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -439,6 +495,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 497,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -454,6 +512,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 423,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -469,6 +529,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 11,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -484,6 +546,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 389,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -499,6 +563,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 462,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -514,6 +580,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 151,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -529,6 +597,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 459,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -544,6 +614,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 211,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -559,6 +631,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 489,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -574,6 +648,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 411,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -589,6 +665,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 374,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -604,6 +682,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 190,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -619,6 +699,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 14,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -634,6 +716,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 212,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -649,6 +733,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 454,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -664,6 +750,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 338,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -679,6 +767,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 371,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -694,6 +784,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 123,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -709,6 +801,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 492,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -724,6 +818,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 26,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -739,6 +835,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 34,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -754,6 +852,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 292,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -769,6 +869,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 159,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -784,6 +886,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 500,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -799,6 +903,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 399,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -814,6 +920,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 328,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -829,6 +937,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 58,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -844,6 +954,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 442,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -859,6 +971,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 413,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -874,6 +988,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 392,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -889,6 +1005,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 113,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -904,6 +1022,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 463,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -919,6 +1039,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 488,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -934,6 +1056,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 415,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -949,6 +1073,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 366,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -964,6 +1090,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 156,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -979,6 +1107,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 425,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -994,6 +1124,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 193,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1009,6 +1141,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 444,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1024,6 +1158,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 388,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1039,6 +1175,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 340,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1054,6 +1192,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 317,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1069,6 +1209,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 106,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1084,6 +1226,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 281,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1099,6 +1243,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 106,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1114,6 +1260,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 65,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1129,6 +1277,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 83,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -1144,6 +1294,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 357,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1159,6 +1311,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 112,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -1174,6 +1328,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 279,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -1189,6 +1345,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 244,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1204,6 +1362,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 154,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1219,6 +1379,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 331,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1234,6 +1396,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 68,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1249,6 +1413,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 407,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1264,6 +1430,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 478,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1279,6 +1447,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 3,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1294,6 +1464,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 441,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1309,6 +1481,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 429,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1324,6 +1498,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 242,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -1339,6 +1515,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 193,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1354,6 +1532,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 315,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1369,6 +1549,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 331,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -1384,6 +1566,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 145,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1399,6 +1583,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 42,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1414,6 +1600,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 138,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -1429,6 +1617,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 36,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -1444,6 +1634,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 286,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -1459,6 +1651,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 339,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1474,6 +1668,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 468,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1489,6 +1685,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 332,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -1504,6 +1702,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 348,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -1519,6 +1719,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 355,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1534,6 +1736,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 65,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1549,6 +1753,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 355,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -1564,6 +1770,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 228,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -1579,6 +1787,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 465,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1594,6 +1804,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 167,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1609,6 +1821,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 268,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -1624,6 +1838,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 348,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1639,6 +1855,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 481,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -1654,6 +1872,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 247,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1669,6 +1889,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 352,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1684,6 +1906,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 232,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -1699,6 +1923,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 246,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -1714,6 +1940,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 256,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1729,6 +1957,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 320,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1744,6 +1974,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 42,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -1759,6 +1991,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 33,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1774,6 +2008,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 213,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1789,6 +2025,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 124,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -1804,6 +2042,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 38,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1819,6 +2059,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 338,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1834,6 +2076,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 59,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -1849,6 +2093,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 22,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -1864,6 +2110,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 428,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1879,6 +2127,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 488,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -1894,6 +2144,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 417,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1909,6 +2161,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 363,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1924,6 +2178,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 258,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1939,6 +2195,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 64,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -1954,6 +2212,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 113,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1969,6 +2229,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 382,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -1984,6 +2246,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 375,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -1999,6 +2263,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 13,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2014,6 +2280,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 406,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -2029,6 +2297,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 95,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -2044,6 +2314,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 237,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2059,6 +2331,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 400,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2074,6 +2348,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 388,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2089,6 +2365,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 278,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -2104,6 +2382,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 259,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2119,6 +2399,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 164,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2134,6 +2416,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 21,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -2149,6 +2433,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 499,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2164,6 +2450,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 446,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2179,6 +2467,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 173,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2194,6 +2484,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 36,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -2209,6 +2501,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 413,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2224,6 +2518,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 116,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2239,6 +2535,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 153,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2254,6 +2552,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 90,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2269,6 +2569,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 27,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2284,6 +2586,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 124,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2299,6 +2603,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 157,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -2314,6 +2620,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 313,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -2329,6 +2637,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 299,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2344,6 +2654,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 487,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2359,6 +2671,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 148,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2374,6 +2688,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 406,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -2389,6 +2705,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 245,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2404,6 +2722,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 6,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2419,6 +2739,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 266,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2434,6 +2756,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 54,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2449,6 +2773,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 438,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2464,6 +2790,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 484,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -2479,6 +2807,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 256,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2494,6 +2824,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 296,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2509,6 +2841,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 207,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2524,6 +2858,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 39,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2539,6 +2875,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 230,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2554,6 +2892,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 20,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2569,6 +2909,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 491,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2584,6 +2926,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 244,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2599,6 +2943,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 16,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2614,6 +2960,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 68,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2629,6 +2977,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 74,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2644,6 +2994,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 322,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2659,6 +3011,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 378,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2674,6 +3028,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 157,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2689,6 +3045,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 228,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2704,6 +3062,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 362,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -2719,6 +3079,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 328,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -2734,6 +3096,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 8,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Media',
@@ -2749,6 +3113,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 189,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Career',
@@ -2764,6 +3130,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 91,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -2779,6 +3147,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 256,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Fun',
@@ -2794,6 +3164,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 349,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -2809,6 +3181,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 37,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Print',
@@ -2824,6 +3198,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 78,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2839,6 +3215,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 114,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2854,6 +3232,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 209,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -2869,6 +3249,8 @@ exports.seed = function(knex) {
           skill_level: 'Advanced',
           shares: 111,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Reference',
@@ -2884,6 +3266,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 351,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Tech',
@@ -2899,6 +3283,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 403,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -2914,6 +3300,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 199,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Practice',
@@ -2929,6 +3317,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 156,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Gear',
@@ -2944,6 +3334,8 @@ exports.seed = function(knex) {
           skill_level: 'Beginner',
           shares: 302,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Education',
@@ -2959,6 +3351,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 425,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
         {
           type: 'Merch',
@@ -2974,6 +3368,8 @@ exports.seed = function(knex) {
           skill_level: 'Intermediate',
           shares: 209,
           approved: true,
+          upvotes: 50,
+          downvotes: 15,
         },
       ]);
     });

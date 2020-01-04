@@ -1,14 +1,14 @@
 const User = require('../models/User');
 
 exports.getAllUsers = async (req, res) => {
-  const users = await User.query().withGraphFetched('[comments, favorites, votes, reviews]');
+  const users = await User.query().withGraphFetched('[favorites, votes, reviews]');
   res.json(users);
 };
 
 exports.getOneUser = async (req, res) => {
   const user = await User.query()
     .findById(req.params.id)
-    .withGraphFetched('[comments, favorites, votes, reviews]');
+    .withGraphFetched('[favorites, votes, reviews]');
   res.json(user);
 };
 

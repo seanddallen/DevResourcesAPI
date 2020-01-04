@@ -46,7 +46,7 @@ class Resource extends Model {
   static get jsonSchema() {
     return {
       type: 'object',
-      required: ['type', 'subtype', 'title', 'description', 'url', 'price', 'skill_level'],
+      required: ['type', 'subtype', 'title', 'description', 'url', 'price', 'skill_level', 'shares', 'approved'],
 
       properties: {
         id: { type: 'integer' },
@@ -62,6 +62,8 @@ class Resource extends Model {
         skill_level: { type: 'string', minLength: 1, maxLength: 255 },
         created_at: { type: 'string', minLength: 1, maxLength: 255 },
         updated_at: { type: 'string', minLength: 1, maxLength: 255 },
+        shares: { type: 'integer' },
+        approved: { type: 'boolean' },
       },
     };
   }

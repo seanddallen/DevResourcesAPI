@@ -1,6 +1,7 @@
+const dotenv = require('dotenv');
+
 if (process.env.NODE_ENV !== 'production') {
-  // eslint-disable-next-line global-require
-  require('dotenv').config();
+  dotenv.config();
 }
 
 const { app } = require('./server');

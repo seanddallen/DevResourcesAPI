@@ -1,7 +1,9 @@
+const { DB_USERNAME, DB_PASSWORD, DB_PORT, DB_HOST, DB_NAME } = process.env;
+
 const connectionString =
   process.platform === 'win32'
-    ? 'postgres://postgres:docker@localhost:5433/dev_resources'
-    : 'postgres://localhost/dev_resources';
+    ? `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`
+    : `postgres://${DB_HOST}/${DB_NAME}`;
 
 module.exports = {
   development: {

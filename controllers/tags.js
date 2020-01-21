@@ -1,34 +1,33 @@
-const knex = require('../db/knex');
+const Tag = require('../models/Tag');
 
-exports.getAllTags = (req, res) => {
-  knex('tags').then(tags => res.json(tags));
+exports.getAllTags = async (req, res) => {
+  const tags = await Tag.query();
+  res.json(tags);
 };
 
-exports.getAllResourceTags = (req, res) => {
-  knex('tags')
-    .where('resource_id', req.params.resource_id)
-    .then(tag => res.json(tag));
+exports.getAllResourceTags = async (req, res) => {
+  const tag = await Tag.query().findById(req.params.id);
+  res.json(tag);
 };
 
-exports.addTag = (req, res) => {
-  knex('tags')
+exports.addTag = async (req, res) => {
+  const newTag = await Tag.query()
     .insert(req.body)
-    .returning('*')
-    .then(newTag => res.json(newTag));
+    .returning('*');
+  res.json(newTag);
 };
 
-exports.updateTag = (req, res) => {
-  knex('tags')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedTag => res.json(updatedTag));
+exports.updateTag = async (req, res) => {
+  const updatedTag = await Tag.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedTag);
 };
 
-exports.removeTag = (req, res) => {
-  knex('tags')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedTag => res.json(removedTag));
+exports.removeTag = async (req, res) => {
+  const deletedTag = await Tag.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedTag);
 };

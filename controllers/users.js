@@ -1,34 +1,35 @@
-const knex = require('../db/knex');
+const User = require('../models/User');
 
-exports.getAllUsers = (req, res) => {
-  knex('users').then(users => res.json(users));
+exports.getAllUsers = async (req, res) => {
+  const users = await User.query().withGraphFetched('[favorites, votes, reviews]');
+  res.json(users);
 };
 
-exports.getOneUser = (req, res) => {
-  knex('users')
-    .where('id', req.params.id)
-    .then(user => res.json(user));
+exports.getOneUser = async (req, res) => {
+  const user = await User.query()
+    .findById(req.params.id)
+    .withGraphFetched('[favorites, votes, reviews]');
+  res.json(user);
 };
 
-exports.addUser = (req, res) => {
-  knex('users')
+exports.addUser = async (req, res) => {
+  const newUser = await User.query()
     .insert(req.body)
-    .returning('*')
-    .then(newUser => res.json(newUser));
+    .returning('*');
+  res.json(newUser);
 };
 
-exports.updateUser = (req, res) => {
-  knex('users')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedUser => res.json(updatedUser));
+exports.updateUser = async (req, res) => {
+  const updatedUser = await User.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedUser);
 };
 
-exports.removeUser = (req, res) => {
-  knex('users')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedUser => res.json(removedUser));
+exports.removeUser = async (req, res) => {
+  const deletedUser = await User.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedUser);
 };

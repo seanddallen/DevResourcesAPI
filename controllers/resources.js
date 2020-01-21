@@ -1,34 +1,35 @@
-const knex = require('../db/knex');
+const Resource = require('../models/Resource');
 
-exports.getAllResources = (req, res) => {
-  knex('resources').then(resources => res.json(resources));
+exports.getAllResources = async (req, res) => {
+  const resources = await Resource.query().withGraphFetched('[votes, reviews, tags]');
+  res.json(resources);
 };
 
-exports.getOneResource = (req, res) => {
-  knex('resources')
-    .where('id', req.params.id)
-    .then(resource => res.json(resource));
+exports.getOneResource = async (req, res) => {
+  const resource = await Resource.query()
+    .findById(req.params.id)
+    .withGraphFetched('[votes, reviews, tags]');
+  res.json(resource);
 };
 
-exports.addResource = (req, res) => {
-  knex('resources')
+exports.addResource = async (req, res) => {
+  const newResource = await Resource.query()
     .insert(req.body)
-    .returning('*')
-    .then(newResource => res.json(newResource));
+    .returning('*');
+  res.json(newResource);
 };
 
-exports.updateResource = (req, res) => {
-  knex('resources')
-    .where('id', req.params.id)
-    .update(req.body)
-    .returning('*')
-    .then(updatedResource => res.json(updatedResource));
+exports.updateResource = async (req, res) => {
+  const updatedResource = await Resource.query()
+    .findById(req.params.id)
+    .patch(req.body)
+    .returning('*');
+  res.json(updatedResource);
 };
 
-exports.removeResource = (req, res) => {
-  knex('resources')
-    .del()
-    .where('id', req.params.id)
-    .returning('*')
-    .then(removedResource => res.json(removedResource));
+exports.removeResource = async (req, res) => {
+  const deletedResource = await Resource.query()
+    .deleteById(req.params.id)
+    .returning('*');
+  res.json(deletedResource);
 };

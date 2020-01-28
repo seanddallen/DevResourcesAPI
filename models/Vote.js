@@ -31,7 +31,7 @@ class Vote extends Model {
       properties: {
         id: { type: 'integer' },
         user_id: { type: 'integer' },
-        type: { type: 'integer' },
+        type: { type: 'string' },
         content: { type: 'string', minLength: 1, maxLength: 255 },
         created_at: { type: 'string', minLength: 1, maxLength: 255 },
         updated_at: { type: 'string', minLength: 1, maxLength: 255 },

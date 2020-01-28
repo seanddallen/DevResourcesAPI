@@ -68,7 +68,7 @@ class Resource extends Model {
         creator: { type: 'string', minLength: 1, maxLength: 255 },
         creation_year: { type: 'integer' },
         url: { type: 'string', minLength: 1, maxLength: 255 },
-        description: { type: 'string', minLength: 1, maxLength: 255 },
+        description: { type: 'string', minLength: 1, maxLength: 1000 },
         image: { type: 'string', minLength: 1, maxLength: 255 },
         price: { type: 'string', minLength: 1, maxLength: 255 },
         skill_level: { type: 'string', minLength: 1, maxLength: 255 },

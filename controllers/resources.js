@@ -15,7 +15,8 @@ exports.getOneResource = async (req, res) => {
 exports.addResource = async (req, res) => {
   const newResource = await Resource.query()
     .insert(req.body)
-    .returning('*');
+    .returning('*')
+    .withGraphFetched('[votes, reviews, tags]');
   res.json(newResource);
 };
 

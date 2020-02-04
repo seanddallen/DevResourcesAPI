@@ -5,6 +5,8 @@ const connectionString =
     ? `postgres://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`
     : `postgres://${DB_HOST}/${DB_NAME}`;
 
+const newConnString = `postgres://db_access:freedom@localhost:5433/dev_resources`;
+
 module.exports = {
   development: {
     client: 'pg',

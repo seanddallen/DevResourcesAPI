@@ -1,4 +1,5 @@
 const Resource = require('../models/Resource');
+const Tag = require('../models/Tag');
 
 exports.getAllResources = async (req, res) => {
   const resources = await Resource.query().withGraphFetched('[votes, reviews, tags]');
@@ -13,10 +14,50 @@ exports.getOneResource = async (req, res) => {
 };
 
 exports.addResource = async (req, res) => {
-  const newResource = await Resource.query()
-    .insert(req.body)
+  const tagsInBody = req.body.tags;
+  const newTags = [];
+  let newResourse = {
+    type: req.body.type,
+    subtype: req.body.subtype,
+    title: req.body.title,
+    creator: req.body.creator,
+    creation_year: req.body.creation_year,
+    url: req.body.url,
+    description: req.body.description,
+    image: req.body.image,
+    price: req.body.price,
+    skill_level: req.body.skill_level,
+    shares: req.body.shares,
+    upvotes: req.body.upvotes,
+    downvotes: req.body.downvotes,
+    approved: req.body.approved,
+  };
+
+  const addedResource = await Resource.query()
+    .insert(newResourse)
     .returning('*');
-  res.json(newResource);
+  
+  console.log('added resource: ', addedResource)
+
+  tagsInBody.forEach(async tag => {
+    const formattedTag = {
+      resource_id: addedResource.id,
+      name: tag.name,
+    }
+    const newTag = await Tag.query()
+      .insert(formattedTag)
+      .returning('*');
+
+    console.log('new tag', newTag)
+    newTags.push(newTag);
+  });
+
+  
+  const formattedResource = await Resource.query()
+    .findById(addedResource.id)
+    .withGraphFetched('tags');
+  console.log('new resource: ', formattedResource)
+  res.json('got it');
 };
 
 exports.updateResource = async (req, res) => {

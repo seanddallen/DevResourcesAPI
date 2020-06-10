@@ -72,6 +72,7 @@ class Resource extends Model {
         image: { type: 'string', minLength: 1, maxLength: 255 },
         price: { type: 'string', minLength: 1, maxLength: 255 },
         skill_level: { type: 'string', minLength: 1, maxLength: 255 },
+        age: { type: 'string', minLength: 1, maxLength: 255 },
         shares: { type: 'integer' },
         upvotes: { type: 'integer' },
         downvotes: { type: 'integer' },

@@ -7,7 +7,7 @@ exports.seed = function(knex) {
       return knex('resources').insert([
         {
           type: 'Tech',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Dognost',
           creator: 'Carr Saunders',
           creation_year: 2003,
@@ -33,7 +33,7 @@ exports.seed = function(knex) {
           description:
             'Laborum id cupidatat incididunt culpa pariatur ea. Mollit proident sit anim do ullamco in irure ea anim dolore. Labore irure ipsum elit do. Laborum nostrud irure do incididunt elit duis do mollit qui nisi ipsum velit esse.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 272,
@@ -51,7 +51,7 @@ exports.seed = function(knex) {
           description:
             'Adipisicing aliquip Lorem laboris laborum enim incididunt. Sint nisi in culpa proident magna velit qui. Esse sit reprehenderit voluptate est dolor labore incididunt et fugiat enim duis irure elit. Ut ipsum ex id amet elit. Exercitation anim anim excepteur adipisicing Lorem Lorem consectetur magna velit tempor eu eiusmod. Non id eiusmod veniam sunt ea officia sit ipsum proident. Sint voluptate aliquip aliquip ut magna do exercitation dolor ipsum consectetur anim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 210,
@@ -69,7 +69,7 @@ exports.seed = function(knex) {
           description:
             'Cillum eu quis culpa minim ullamco do qui consequat pariatur sint voluptate reprehenderit ea. Deserunt incididunt ipsum ullamco eiusmod ipsum minim adipisicing ipsum sint commodo. Velit ea aliqua voluptate nostrud exercitation fugiat deserunt velit reprehenderit culpa laborum reprehenderit qui. Anim voluptate consequat ea elit magna eiusmod.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 11,
@@ -79,7 +79,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Tech',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Turnabout',
           creator: 'Ross Langley',
           creation_year: 2014,
@@ -105,7 +105,7 @@ exports.seed = function(knex) {
           description:
             'Elit exercitation minim dolore mollit voluptate in exercitation non nostrud nisi. Anim nisi eiusmod adipisicing pariatur exercitation ea consectetur ex occaecat do dolor quis officia voluptate. Ex elit pariatur proident ea do deserunt excepteur pariatur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 359,
@@ -123,7 +123,7 @@ exports.seed = function(knex) {
           description:
             'Occaecat consequat sunt velit velit amet. Et cupidatat magna elit culpa nulla ullamco nulla irure proident et consequat mollit eu. Occaecat ea aliquip id ullamco exercitation fugiat in exercitation excepteur cupidatat cillum culpa. Pariatur sint duis cupidatat qui fugiat deserunt in consequat labore velit. In tempor commodo mollit id nulla pariatur culpa reprehenderit anim cillum eiusmod ullamco veniam. Ullamco magna anim laboris labore amet est consectetur laborum aliquip excepteur nostrud. Irure laboris consequat ipsum veniam sit esse.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 300,
@@ -159,7 +159,7 @@ exports.seed = function(knex) {
           description:
             'Aute pariatur laborum amet non proident velit. Laborum nisi eu et velit officia fugiat magna et commodo deserunt pariatur quis laboris. Ipsum sunt fugiat esse enim consectetur ea. Commodo ut reprehenderit dolore nostrud sint consequat est ipsum cupidatat deserunt. Reprehenderit anim amet fugiat reprehenderit enim dolore commodo sunt eu.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 367,
@@ -169,7 +169,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Print',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Vantage',
           creator: 'Lawanda Bailey',
           creation_year: 2010,
@@ -177,7 +177,7 @@ exports.seed = function(knex) {
           description:
             'Duis dolore Lorem nisi ipsum nulla. Sunt sint consequat voluptate esse. Elit sint ipsum amet nisi laborum nulla ipsum velit proident minim. Excepteur deserunt officia Lorem occaecat pariatur qui aute esse incididunt.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 257,
@@ -195,7 +195,7 @@ exports.seed = function(knex) {
           description:
             'Tempor adipisicing et ea pariatur nulla irure eiusmod in. Do in ut minim fugiat incididunt ad sit eiusmod aliqua exercitation et nisi. Lorem quis ex aute do ut irure reprehenderit velit laboris. Magna est consequat dolor incididunt ipsum sunt sit minim amet.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 49,
@@ -213,7 +213,7 @@ exports.seed = function(knex) {
           description:
             'Do ut amet duis labore aliquip cupidatat ipsum. Reprehenderit tempor velit esse aute est ullamco commodo velit ea esse ex ex dolor sit. Ipsum Lorem fugiat consectetur reprehenderit ad labore duis voluptate tempor adipisicing ea. Irure ipsum nulla ullamco cupidatat aliqua.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 208,
@@ -231,7 +231,7 @@ exports.seed = function(knex) {
           description:
             'Culpa culpa aliqua cupidatat ut nostrud qui sint. Magna reprehenderit veniam nostrud dolore ea mollit dolore minim sunt. Exercitation eiusmod veniam incididunt qui reprehenderit nostrud amet ullamco incididunt amet eiusmod.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 233,
@@ -249,7 +249,7 @@ exports.seed = function(knex) {
           description:
             'Excepteur laborum fugiat reprehenderit cupidatat ad. Est laboris aliquip fugiat veniam pariatur veniam incididunt deserunt aute fugiat excepteur incididunt exercitation amet. Dolor fugiat magna pariatur non veniam nulla quis anim ipsum. Magna est dolor laboris id ullamco nisi consequat pariatur. In fugiat ea reprehenderit laborum laboris incididunt nulla qui laborum. Aliqua adipisicing veniam aliquip sunt mollit duis. Aliqua quis sint adipisicing exercitation in adipisicing culpa qui velit est.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 461,
@@ -267,7 +267,7 @@ exports.seed = function(knex) {
           description:
             'Fugiat mollit qui sit non ullamco consectetur. Laborum sit nulla veniam labore anim et duis fugiat. Ea nostrud laborum minim mollit do et reprehenderit. Duis do cillum id est occaecat laboris nisi occaecat ullamco adipisicing. Aliquip esse consequat velit nisi id nulla amet dolor esse magna culpa aute pariatur commodo. Minim culpa fugiat nostrud dolore eiusmod aliquip dolore consectetur ea eiusmod. Eiusmod dolore officia nulla officia esse in quis.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 87,
@@ -339,7 +339,7 @@ exports.seed = function(knex) {
           description:
             'Non aute proident consectetur sint eu in. Ex ipsum tempor deserunt pariatur eiusmod. Aute laboris dolore incididunt dolore sit. Velit nisi ex non nisi enim irure. Laboris reprehenderit anim esse aute fugiat mollit. Consectetur excepteur sit Lorem est ullamco ea aliquip adipisicing aute exercitation aliqua enim elit commodo. Aliquip quis reprehenderit irure ex nulla aute ipsum enim et ex labore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 274,
@@ -357,7 +357,7 @@ exports.seed = function(knex) {
           description:
             'Eu ex officia ea consequat minim. Laborum eu ex sunt et commodo cupidatat sint consectetur esse id est nulla magna ullamco. Est occaecat cillum dolor sint tempor do commodo amet. Amet id ullamco dolore duis consectetur do duis id do Lorem laborum. Irure duis do magna sunt minim incididunt do et sit ipsum velit ad et.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 285,
@@ -375,7 +375,7 @@ exports.seed = function(knex) {
           description:
             'Anim commodo esse deserunt ullamco laborum eu minim tempor sint occaecat. Fugiat aute aliqua cillum ex ex veniam. Eu incididunt sit sunt dolor exercitation ullamco officia in deserunt ipsum. Ullamco labore ipsum sunt duis adipisicing minim reprehenderit amet labore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 109,
@@ -393,7 +393,7 @@ exports.seed = function(knex) {
           description:
             'Deserunt ullamco labore aliquip fugiat excepteur labore. Ut et exercitation deserunt velit aliqua incididunt nulla. Incididunt exercitation aliquip et nisi aliquip sint magna sunt ullamco. Minim aute cillum laborum id tempor amet velit. Mollit laborum excepteur magna eiusmod enim ut laborum adipisicing cupidatat reprehenderit consectetur dolor aliqua. Sit nulla veniam minim veniam id laborum consectetur deserunt culpa dolore eu sit deserunt. Mollit aliquip sint magna pariatur commodo nostrud.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 498,
@@ -411,7 +411,7 @@ exports.seed = function(knex) {
           description:
             'Reprehenderit consequat velit ut dolore nostrud labore ea ullamco eiusmod Lorem culpa. Duis adipisicing consequat veniam labore nisi occaecat veniam qui consectetur in. Enim laboris aliquip quis nisi irure voluptate sit. Sint labore ullamco do nisi non velit eu sit voluptate elit in sunt. Deserunt in in tempor mollit sit. Sint duis ex ipsum laboris eu. Occaecat laborum ad consectetur eu do.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 251,
@@ -429,7 +429,7 @@ exports.seed = function(knex) {
           description:
             'Cillum ad et dolore labore minim nisi. Sunt elit esse aliquip id occaecat ipsum dolor cillum laboris minim et veniam fugiat. Aliquip id consectetur voluptate excepteur commodo ad eu id magna minim culpa exercitation culpa aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 270,
@@ -447,7 +447,7 @@ exports.seed = function(knex) {
           description:
             'Magna est officia aute ad pariatur Lorem laboris ullamco ex. Nostrud et nisi elit Lorem adipisicing adipisicing ut sit elit aliqua veniam nostrud amet. Do pariatur magna nulla amet. Nostrud mollit ex esse aliqua proident in adipisicing labore ut.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 302,
@@ -465,7 +465,7 @@ exports.seed = function(knex) {
           description:
             'Id nulla do culpa ut sint magna consectetur nulla dolore fugiat excepteur. Aliquip dolor minim eiusmod culpa laborum cupidatat tempor reprehenderit nulla occaecat aliqua do proident. Ipsum pariatur ut amet aliqua sint consequat mollit exercitation ea velit excepteur do. Dolor excepteur irure consequat fugiat. Amet consectetur excepteur velit exercitation excepteur laboris dolor voluptate magna veniam. Adipisicing sint proident laborum proident aute sit irure ipsum culpa velit anim. Veniam ipsum aliquip consequat tempor quis laborum irure do cupidatat.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 325,
@@ -483,7 +483,7 @@ exports.seed = function(knex) {
           description:
             'Fugiat in nostrud sit et voluptate voluptate ad. Velit eiusmod culpa anim consequat dolor ut cupidatat. Aliqua duis id laboris pariatur culpa cupidatat qui nostrud cupidatat quis tempor eiusmod. Deserunt eu exercitation magna dolor adipisicing ex fugiat occaecat dolore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 393,
@@ -501,7 +501,7 @@ exports.seed = function(knex) {
           description:
             'Do officia proident sunt aute irure aute. Reprehenderit minim proident ullamco excepteur voluptate eu labore ut ipsum. Eiusmod Lorem reprehenderit non incididunt. Excepteur et aliquip non duis tempor proident pariatur fugiat commodo reprehenderit adipisicing officia sit nisi. Irure eu dolor ea id cupidatat enim laborum dolor. Incididunt ex cillum duis esse amet cupidatat mollit ut.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 165,
@@ -519,7 +519,7 @@ exports.seed = function(knex) {
           description:
             'Tempor duis velit ipsum aliqua ut. Ea minim do laboris tempor do. Ut cillum ea consequat magna ullamco officia esse pariatur voluptate nostrud.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 497,
@@ -537,7 +537,7 @@ exports.seed = function(knex) {
           description:
             'Id incididunt fugiat pariatur eiusmod id nisi. Aute mollit dolore nisi velit cupidatat in labore sint minim nisi. Nostrud occaecat duis do sint nulla reprehenderit sint voluptate quis culpa. Anim do labore laborum Lorem minim. Pariatur laborum reprehenderit laboris sunt sunt dolor commodo. Nisi sunt elit consectetur laboris tempor eiusmod voluptate irure excepteur in sint.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 423,
@@ -555,7 +555,7 @@ exports.seed = function(knex) {
           description:
             'Enim quis culpa sunt magna. Velit magna occaecat incididunt ut deserunt sit. Dolore fugiat enim ullamco ullamco sunt officia adipisicing ex. Id commodo reprehenderit reprehenderit tempor consequat aliqua labore duis aute duis incididunt pariatur. Ullamco ullamco nostrud ullamco dolor excepteur ex do aliqua labore ut enim incididunt mollit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 11,
@@ -573,7 +573,7 @@ exports.seed = function(knex) {
           description:
             'Laborum est aute dolore consectetur Lorem et elit minim amet esse velit reprehenderit. Aute reprehenderit amet ut eu. Eiusmod magna ut Lorem velit ullamco nulla laborum incididunt deserunt ad. Commodo eiusmod enim esse fugiat. Elit proident officia non culpa labore sit magna aliqua veniam occaecat duis exercitation commodo incididunt. Duis minim incididunt est pariatur aliqua amet.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 389,
@@ -591,7 +591,7 @@ exports.seed = function(knex) {
           description:
             'Et excepteur elit cillum dolor tempor nisi officia fugiat dolor magna minim. Est commodo amet cupidatat ut commodo cillum proident amet exercitation nisi tempor tempor velit eu. Ad nisi tempor consectetur deserunt non ea est non culpa ad.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 462,
@@ -609,7 +609,7 @@ exports.seed = function(knex) {
           description:
             'Aliquip excepteur minim est nisi ut ut non. Reprehenderit aliqua veniam nostrud officia reprehenderit excepteur consectetur nostrud minim ea. Et excepteur consequat labore Lorem amet laboris dolor nostrud ullamco non Lorem. Incididunt eiusmod aliqua commodo ex quis voluptate elit nostrud commodo.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 151,
@@ -645,7 +645,7 @@ exports.seed = function(knex) {
           description:
             'Eiusmod aliqua enim laborum dolore fugiat aliqua minim excepteur aute cupidatat anim adipisicing. Eu dolor ullamco est duis. Sint commodo dolor qui id. Occaecat in commodo anim id ea enim amet anim mollit mollit. Ea quis nisi eu labore nisi laboris exercitation. Ullamco eiusmod aliquip cillum sunt nostrud ut qui ex sit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 211,
@@ -663,7 +663,7 @@ exports.seed = function(knex) {
           description:
             'Enim deserunt ut do dolor fugiat exercitation in esse in laboris. Consequat nulla veniam mollit ipsum. Nisi id nisi voluptate do ad commodo quis enim ex minim sint.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 489,
@@ -681,7 +681,7 @@ exports.seed = function(knex) {
           description:
             'Exercitation duis voluptate et consectetur voluptate ullamco id et et quis reprehenderit. Qui esse magna duis do anim voluptate culpa pariatur culpa ad. Veniam voluptate aliqua consectetur reprehenderit commodo pariatur. Ullamco proident ullamco ipsum reprehenderit amet dolore quis. Aliquip adipisicing sunt laboris duis commodo Lorem ad exercitation ad et ullamco. Amet sint nulla eu magna proident.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 411,
@@ -699,7 +699,7 @@ exports.seed = function(knex) {
           description:
             'Enim velit culpa minim laborum nostrud labore exercitation duis occaecat. Non id et amet nulla quis qui occaecat mollit velit ex commodo pariatur sunt. Et anim anim laborum ea occaecat. Aliquip aute esse ex elit elit nostrud minim mollit irure elit aliquip cupidatat. Ad magna eiusmod et amet culpa pariatur dolore ex. Excepteur incididunt non nostrud ut laboris incididunt pariatur aute tempor incididunt consequat laboris irure.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 374,
@@ -735,7 +735,7 @@ exports.seed = function(knex) {
           description:
             'Ipsum sint aliqua Lorem adipisicing eu aute ut culpa minim duis ipsum minim minim laborum. Nisi dolor aute minim cillum eu proident sint exercitation. Esse id proident aute minim proident consectetur aute veniam laboris Lorem tempor laboris nulla. Culpa non Lorem mollit tempor et aliquip laboris aliqua nulla deserunt proident qui. Non in aliqua consequat non culpa.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 14,
@@ -753,7 +753,7 @@ exports.seed = function(knex) {
           description:
             'Enim incididunt laboris ut deserunt occaecat ipsum minim nisi occaecat deserunt nulla Lorem eiusmod. Minim velit ipsum est incididunt tempor nisi fugiat ullamco ex pariatur aute anim. Dolor veniam cupidatat id reprehenderit aute magna nisi incididunt irure cupidatat excepteur laborum occaecat. Nisi laboris qui aute et ipsum labore ut magna et cupidatat eiusmod excepteur. Magna ullamco veniam nisi elit pariatur amet nisi labore adipisicing quis non.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 212,
@@ -771,7 +771,7 @@ exports.seed = function(knex) {
           description:
             'Et sunt anim minim voluptate. Amet do sit sit culpa occaecat. Aliqua reprehenderit excepteur et adipisicing consequat sint eiusmod minim do veniam id. Ut anim elit cillum nostrud culpa cillum ex tempor. Minim Lorem voluptate elit sunt sint non nisi tempor eu Lorem id mollit excepteur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 454,
@@ -789,7 +789,7 @@ exports.seed = function(knex) {
           description:
             'Excepteur minim quis dolore laboris minim commodo. Laboris veniam irure et velit. Adipisicing ea minim laborum aliquip consectetur cupidatat. Proident velit ut adipisicing ea exercitation mollit esse minim labore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 338,
@@ -799,7 +799,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Education',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Ecrater',
           creator: 'Manuela Foley',
           creation_year: 2016,
@@ -807,7 +807,7 @@ exports.seed = function(knex) {
           description:
             'Pariatur irure in ut excepteur nisi pariatur. Magna est cupidatat Lorem sint quis ea mollit sit incididunt reprehenderit sunt excepteur minim. Incididunt ea laborum tempor incididunt ea duis aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 371,
@@ -825,7 +825,7 @@ exports.seed = function(knex) {
           description:
             'Cupidatat fugiat eiusmod officia magna est id consectetur do consequat et quis eu mollit non. Laboris qui amet sunt aute aliquip adipisicing. Anim est elit ad dolor sint labore dolore. Mollit pariatur cillum excepteur nulla duis veniam laborum culpa. Ut id et pariatur excepteur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 123,
@@ -843,7 +843,7 @@ exports.seed = function(knex) {
           description:
             'Velit fugiat proident voluptate excepteur pariatur incididunt do consectetur est ad. Tempor veniam ex excepteur ea eiusmod. Excepteur aliqua cillum nulla dolore dolor et proident non cillum incididunt consectetur. Labore proident adipisicing qui aliqua consectetur qui mollit consequat velit proident aliquip aliquip amet velit. Mollit nisi et aliqua et. Ex veniam sint ea deserunt sit. Lorem ullamco excepteur anim aliqua mollit dolore labore cillum ullamco ea irure.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 492,
@@ -897,7 +897,7 @@ exports.seed = function(knex) {
           description:
             'Aliquip sunt cillum sint esse occaecat consequat irure aute non nisi. Consectetur deserunt sint ex irure cillum eiusmod id dolor excepteur in laborum est voluptate aliqua. Veniam est aliquip reprehenderit eu laborum.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 292,
@@ -907,7 +907,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Merch',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Premiant',
           creator: 'Valarie Hardy',
           creation_year: 2013,
@@ -933,7 +933,7 @@ exports.seed = function(knex) {
           description:
             'Ipsum ut amet consequat deserunt voluptate et excepteur veniam aliquip. Mollit ea laborum deserunt eiusmod fugiat sit et mollit. Consectetur tempor amet duis sit nostrud cillum veniam Lorem Lorem laborum quis aliquip ut. Nostrud et laborum culpa magna pariatur ipsum laborum irure adipisicing. Ea exercitation aute nisi magna esse sunt enim. Do culpa proident occaecat mollit cupidatat deserunt tempor est cillum in voluptate commodo sunt eu. Consequat occaecat quis aliquip sit veniam culpa non sint sit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 500,
@@ -943,7 +943,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Media',
-          subtype: 'YouTube Channels',
+          subtype: 'Youtube Channels',
           title: 'Marketoid',
           creator: 'Graciela Long',
           creation_year: 2016,
@@ -969,7 +969,7 @@ exports.seed = function(knex) {
           description:
             'Culpa est esse minim sint laborum ex nostrud non occaecat in incididunt non sit voluptate. Dolor consectetur tempor consequat ullamco ipsum amet ipsum do adipisicing officia ex. Cillum quis in in excepteur adipisicing cupidatat dolore esse ad irure ex. Tempor ipsum proident consequat non Lorem consequat culpa cupidatat Lorem incididunt velit voluptate anim culpa. Labore est dolor deserunt dolor veniam ullamco sint. Laborum eiusmod eiusmod fugiat et Lorem est Lorem sunt. Cillum eu laborum culpa officia aliquip elit ullamco non ullamco exercitation aute amet irure incididunt.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 328,
@@ -987,7 +987,7 @@ exports.seed = function(knex) {
           description:
             'Aliquip id culpa culpa sint reprehenderit nostrud mollit laborum consequat ex qui sint quis. Qui aute velit duis ut est ullamco reprehenderit est non reprehenderit laboris aliquip velit. Duis culpa nostrud et pariatur labore amet anim et. Magna sit magna nostrud officia qui sint labore proident velit est in fugiat tempor. Proident et dolor quis ipsum eiusmod sint ex anim elit proident duis aute cupidatat do. Velit ea reprehenderit ullamco ex exercitation amet anim eu pariatur eiusmod.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 58,
@@ -1005,7 +1005,7 @@ exports.seed = function(knex) {
           description:
             'Do sint do consequat ipsum do sunt sint anim. Adipisicing occaecat duis ut velit do mollit qui labore non aliquip mollit labore esse deserunt. Ullamco do elit voluptate sint elit anim adipisicing excepteur eiusmod pariatur. Reprehenderit amet cillum commodo minim eu aute minim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 442,
@@ -1033,7 +1033,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Merch',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Olucore',
           creator: 'Jeannie Petersen',
           creation_year: 2015,
@@ -1059,7 +1059,7 @@ exports.seed = function(knex) {
           description:
             'Reprehenderit aliqua amet dolor Lorem irure elit eiusmod deserunt. Ipsum aliqua qui amet incididunt nostrud ea in. Duis ex id occaecat incididunt. Ea ea proident quis esse eiusmod. Sint cupidatat commodo nulla aliqua non do esse aute ea veniam ad et.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 113,
@@ -1077,7 +1077,7 @@ exports.seed = function(knex) {
           description:
             'Reprehenderit officia non est pariatur nulla ea minim sit ad culpa quis amet. Non fugiat qui fugiat reprehenderit amet nulla irure irure commodo fugiat commodo et quis. Aute sit laborum sit consectetur sint velit nulla aute ea veniam. Ullamco Lorem amet ex esse consectetur tempor. Anim dolor enim dolore anim laboris exercitation nostrud laboris eiusmod in aute pariatur aliquip. Culpa consectetur velit commodo consequat culpa duis exercitation sit Lorem adipisicing amet qui.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 463,
@@ -1095,7 +1095,7 @@ exports.seed = function(knex) {
           description:
             'Nulla eiusmod tempor exercitation duis tempor aliqua consectetur anim exercitation sint cillum. Velit id aute amet laboris ea tempor laborum sint. Nostrud ut nostrud non culpa occaecat ut velit ex reprehenderit in officia exercitation. Ad exercitation voluptate cupidatat magna officia ex.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 488,
@@ -1131,7 +1131,7 @@ exports.seed = function(knex) {
           description:
             'Amet veniam sit sunt commodo in laboris deserunt nulla sunt eu labore laboris. Ullamco incididunt do aliquip non. Qui Lorem ullamco elit in magna est ut incididunt labore excepteur nulla proident. Excepteur veniam voluptate deserunt consequat ut quis.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 366,
@@ -1149,7 +1149,7 @@ exports.seed = function(knex) {
           description:
             'Duis officia adipisicing voluptate non anim deserunt. Lorem occaecat non cillum irure. Consequat ex non aliqua fugiat esse.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 156,
@@ -1167,7 +1167,7 @@ exports.seed = function(knex) {
           description:
             'Nulla non nostrud nulla proident id voluptate ut est occaecat ut aliqua enim voluptate. Incididunt amet laboris exercitation laboris commodo duis ullamco. Ut occaecat proident aliquip dolore dolore. Aliqua quis consectetur velit aute sit. Aute consequat ad ipsum ut eiusmod irure elit tempor. Occaecat ut laboris minim ut sit duis ullamco culpa ullamco excepteur elit cupidatat enim sint.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 425,
@@ -1177,7 +1177,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Tech',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Isologix',
           creator: 'Hicks Reynolds',
           creation_year: 2000,
@@ -1185,7 +1185,7 @@ exports.seed = function(knex) {
           description:
             'Dolore aliquip non aliquip in cillum Lorem ut qui fugiat. Et duis id enim ullamco ad pariatur non ex irure non ea eu laborum. Sint incididunt officia do deserunt velit ipsum anim minim laboris commodo nostrud. Ea veniam aliquip sint voluptate tempor pariatur culpa exercitation.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 193,
@@ -1203,7 +1203,7 @@ exports.seed = function(knex) {
           description:
             'Irure cupidatat Lorem consectetur cupidatat sunt consequat fugiat. Mollit non quis duis dolor magna. Id irure consectetur deserunt ea nostrud ullamco sint duis. Anim pariatur nisi est est sint magna incididunt amet eiusmod proident dolore qui occaecat ad. Cillum irure Lorem labore quis anim ea eu. Ut irure qui cupidatat ipsum adipisicing eu ea.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 444,
@@ -1213,7 +1213,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Gear',
-          subtype: 'YouTube Channels',
+          subtype: 'Youtube Channels',
           title: 'Orbalix',
           creator: 'Felicia Riggs',
           creation_year: 2013,
@@ -1221,7 +1221,7 @@ exports.seed = function(knex) {
           description:
             'Excepteur amet aliqua irure adipisicing dolor. Mollit aliqua duis eu labore in voluptate culpa eiusmod ea est. Veniam velit enim ad dolor elit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 388,
@@ -1239,7 +1239,7 @@ exports.seed = function(knex) {
           description:
             'Velit ad commodo eu mollit Lorem duis non elit. Officia eiusmod ipsum esse consectetur ea in voluptate. Non irure exercitation consectetur tempor et quis ea minim laboris deserunt adipisicing. Culpa reprehenderit nostrud ea laboris do eu adipisicing quis ipsum eu. Cillum ullamco aliqua mollit sunt ullamco ullamco est reprehenderit nulla aute nostrud non sunt. Labore nostrud excepteur duis est in cupidatat et veniam aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 340,
@@ -1257,7 +1257,7 @@ exports.seed = function(knex) {
           description:
             'Irure aute ullamco magna laborum deserunt incididunt. Consequat consequat anim Lorem sunt minim velit laboris sunt dolore esse pariatur sunt. Exercitation ex amet eiusmod incididunt.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 317,
@@ -1293,7 +1293,7 @@ exports.seed = function(knex) {
           description:
             'Adipisicing fugiat consequat cillum reprehenderit id amet cillum et. Exercitation irure veniam nisi exercitation commodo pariatur. Ea minim enim esse consequat irure mollit eiusmod ipsum consectetur cillum ea aute.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 281,
@@ -1311,7 +1311,7 @@ exports.seed = function(knex) {
           description:
             'Incididunt deserunt quis est eiusmod Lorem ipsum esse aliqua. Qui ea eiusmod eiusmod fugiat veniam. Nostrud reprehenderit enim cupidatat consequat ipsum minim esse proident aliqua Lorem labore consectetur. Aliqua laborum et voluptate et sunt Lorem nostrud. Cupidatat elit irure duis qui culpa.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 106,
@@ -1347,7 +1347,7 @@ exports.seed = function(knex) {
           description:
             'Sunt exercitation enim laboris enim amet. Ullamco incididunt nisi aute do ad fugiat ipsum excepteur aute nostrud cupidatat incididunt sint. Excepteur et id aute ullamco ullamco ea mollit anim eiusmod.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 83,
@@ -1365,7 +1365,7 @@ exports.seed = function(knex) {
           description:
             'Aliqua sint excepteur eiusmod sit ut aute exercitation commodo. Sunt irure elit qui nostrud magna laborum eiusmod. Officia culpa ut ullamco laboris. Amet nisi ut est esse deserunt anim qui in ut culpa enim ut irure. Non non magna eiusmod labore in.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 357,
@@ -1383,7 +1383,7 @@ exports.seed = function(knex) {
           description:
             'Do ullamco laboris proident anim proident qui eu Lorem. Est cillum consequat ullamco ex est. Id consectetur officia incididunt irure do exercitation dolore cupidatat fugiat anim nulla. Adipisicing incididunt eu minim id deserunt pariatur cupidatat elit aliqua commodo eiusmod cupidatat labore ipsum. Consectetur aliquip nisi mollit enim elit id do dolor irure incididunt aliqua ullamco nulla excepteur. Labore aliqua enim laboris labore nulla veniam dolore aliquip officia officia enim consequat. Nulla mollit veniam do id ex eu amet labore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 112,
@@ -1411,7 +1411,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Fun',
-          subtype: 'YouTube Channels',
+          subtype: 'Youtube Channels',
           title: 'Zedalis',
           creator: 'Clay Rojas',
           creation_year: 2011,
@@ -1437,7 +1437,7 @@ exports.seed = function(knex) {
           description:
             'Ullamco dolore laboris id sunt velit excepteur dolore excepteur cupidatat reprehenderit nulla excepteur tempor mollit. Sit fugiat aliqua minim esse. Est duis irure minim ut id labore eiusmod duis officia. Voluptate deserunt amet elit nostrud tempor tempor fugiat culpa.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 154,
@@ -1455,7 +1455,7 @@ exports.seed = function(knex) {
           description:
             'Duis tempor ad et dolore laboris sint amet veniam ea proident non ex. Adipisicing magna qui id in tempor aute ea eiusmod sunt ea elit adipisicing sunt in. Qui sunt enim veniam velit in. Eu occaecat deserunt elit eiusmod irure anim eiusmod esse dolor laborum laboris aute. Ea consequat sint anim eiusmod duis irure pariatur ipsum ipsum ullamco.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 331,
@@ -1465,7 +1465,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Career',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Plutorque',
           creator: 'Oliver Robbins',
           creation_year: 2003,
@@ -1491,7 +1491,7 @@ exports.seed = function(knex) {
           description:
             'Dolore dolor ad veniam sit exercitation cillum duis anim in Lorem aliquip. Duis pariatur consectetur cupidatat pariatur et magna eu ut aliqua. Aute Lorem enim ipsum id aute incididunt sit nulla sint incididunt dolor proident. Proident velit minim fugiat occaecat mollit ea aliquip eu labore. Eu consectetur est culpa anim pariatur sit voluptate. Cupidatat excepteur nisi velit proident cupidatat reprehenderit dolore esse veniam veniam occaecat irure ullamco.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 407,
@@ -1527,7 +1527,7 @@ exports.seed = function(knex) {
           description:
             'Veniam consequat laboris est quis non. Irure culpa est sint aliquip. Enim duis est tempor sit laboris adipisicing. Veniam dolor ut cillum dolore ullamco tempor pariatur cillum cupidatat. Sit sint mollit anim deserunt pariatur. Aute duis magna dolore quis cillum officia exercitation id excepteur duis Lorem laborum sunt enim. Dolore laboris consectetur fugiat amet laboris dolor sit anim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 3,
@@ -1545,7 +1545,7 @@ exports.seed = function(knex) {
           description:
             'Ipsum nisi id ut id ullamco eu ipsum aliquip irure reprehenderit elit. Non proident ea duis nostrud irure cupidatat nulla mollit cupidatat sunt. Sit enim commodo quis dolor ad ut anim exercitation occaecat Lorem ullamco magna excepteur. Ipsum ad ea nulla fugiat excepteur non irure amet nulla deserunt mollit. Cillum tempor cillum aliquip adipisicing magna Lorem pariatur irure.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 441,
@@ -1563,7 +1563,7 @@ exports.seed = function(knex) {
           description:
             'Non nostrud occaecat laboris esse incididunt ea ad culpa velit tempor nulla. Eu ad culpa duis non. Nisi sint minim ad dolore. Officia irure laborum nisi officia et magna voluptate enim consequat. Minim et elit sunt culpa cillum labore dolor eu et consequat nostrud sint voluptate cillum.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 429,
@@ -1581,7 +1581,7 @@ exports.seed = function(knex) {
           description:
             'Nulla eu ea Lorem elit in dolore Lorem mollit cupidatat qui dolor ut. Enim quis sint proident sit aliqua. Proident est elit qui eiusmod eiusmod ipsum proident commodo eu in. Eiusmod dolore sint ad labore dolore sint id voluptate occaecat irure culpa veniam pariatur labore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 242,
@@ -1599,7 +1599,7 @@ exports.seed = function(knex) {
           description:
             'Est incididunt fugiat deserunt minim. Quis aute aliquip laboris enim incididunt officia. Proident minim adipisicing aute excepteur eu incididunt et officia ex proident. Labore aliqua cillum aute nostrud consequat commodo magna enim nulla.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 193,
@@ -1617,7 +1617,7 @@ exports.seed = function(knex) {
           description:
             'Voluptate non veniam in voluptate culpa laboris elit minim pariatur eu commodo mollit reprehenderit cillum. Ad dolore pariatur incididunt deserunt officia et officia eiusmod laboris eiusmod dolor cillum. Duis veniam culpa Lorem esse. Cupidatat officia aliqua sunt labore labore duis aliquip irure reprehenderit et non minim eiusmod ea. Ea ipsum aliqua labore nisi qui occaecat est. Aute ea consequat ut est ea tempor enim cillum commodo est et voluptate. Labore consequat officia enim mollit proident occaecat minim esse ex.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 315,
@@ -1635,7 +1635,7 @@ exports.seed = function(knex) {
           description:
             'Sint culpa commodo voluptate duis incididunt quis duis elit occaecat exercitation proident elit. Proident sit cupidatat sint labore quis proident Lorem sunt dolor aute. Ut eu proident eu enim culpa et ut qui aliquip. Anim eu culpa occaecat laboris excepteur laboris irure sunt consectetur do. Eu cupidatat dolor exercitation do aute et occaecat laboris cupidatat. Quis pariatur occaecat commodo amet officia et proident eiusmod.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 331,
@@ -1653,7 +1653,7 @@ exports.seed = function(knex) {
           description:
             'Ex sit cupidatat fugiat elit esse voluptate cupidatat eiusmod cupidatat Lorem eiusmod ex sunt. Excepteur officia voluptate commodo ea occaecat dolor. Mollit voluptate aliqua quis dolor nisi non officia aliqua nulla do elit dolore nisi. Anim minim consequat mollit ea esse.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 145,
@@ -1671,7 +1671,7 @@ exports.seed = function(knex) {
           description:
             'Est aute ad ullamco quis laborum nostrud voluptate est nulla non sit et non magna. Quis non anim sint cillum enim qui exercitation commodo qui enim adipisicing labore. Irure ut culpa quis tempor. Nostrud amet qui voluptate eiusmod mollit pariatur non officia amet duis. Adipisicing sunt magna mollit laboris.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 42,
@@ -1689,7 +1689,7 @@ exports.seed = function(knex) {
           description:
             'Aliquip eiusmod pariatur voluptate dolor dolor sunt nostrud labore. Aute excepteur proident eiusmod cillum ullamco sint dolor proident in commodo irure est et nisi. Tempor do aliquip proident sint excepteur proident excepteur id sunt et reprehenderit ea commodo sint.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 138,
@@ -1707,7 +1707,7 @@ exports.seed = function(knex) {
           description:
             'Adipisicing do velit nulla reprehenderit. Ullamco commodo cillum esse Lorem et qui ex. Consectetur cillum id in veniam. Amet deserunt Lorem reprehenderit in nulla esse reprehenderit in incididunt amet cillum in sit. Proident aute officia sunt amet qui commodo eiusmod laboris eiusmod minim voluptate ex. Nisi cillum excepteur exercitation cupidatat minim et non ipsum minim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 36,
@@ -1725,7 +1725,7 @@ exports.seed = function(knex) {
           description:
             'Aliqua Lorem sit do laboris ex aliquip proident ut do sit dolor esse ad eiusmod. Consectetur do nostrud labore quis Lorem duis ullamco nisi magna amet. Do laboris Lorem enim dolor officia veniam ea tempor qui sunt officia.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 286,
@@ -1735,7 +1735,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Fun',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Digigen',
           creator: 'Tracey Brady',
           creation_year: 2008,
@@ -1743,7 +1743,7 @@ exports.seed = function(knex) {
           description:
             'Aliquip esse mollit duis eiusmod excepteur pariatur aliquip officia non fugiat eiusmod est cillum. Voluptate proident aute cillum occaecat eu. Labore sint ut est elit esse nulla dolor proident excepteur ut ipsum irure aliqua non. Dolor sint in aute sunt in minim eu. Officia dolore commodo eu eiusmod laboris irure nostrud exercitation aliqua duis Lorem. Ea velit consectetur duis culpa nisi pariatur aute dolor veniam ex reprehenderit sit sunt. Lorem officia qui fugiat eiusmod consectetur ut excepteur aliqua occaecat.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 339,
@@ -1761,7 +1761,7 @@ exports.seed = function(knex) {
           description:
             'Ex cillum ad enim voluptate cupidatat velit ipsum mollit magna duis. Laboris consequat anim mollit aliquip aliquip. Dolore tempor exercitation officia dolor anim commodo dolore officia ex voluptate aute duis ea. Esse commodo qui nulla labore nulla.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 468,
@@ -1797,7 +1797,7 @@ exports.seed = function(knex) {
           description:
             'Velit enim ipsum dolore proident eu irure cupidatat consectetur nulla consectetur aliqua aliqua. In magna aute commodo ullamco. Eiusmod sunt voluptate occaecat adipisicing. Incididunt irure commodo exercitation anim exercitation laborum ad adipisicing occaecat consequat. Quis fugiat ipsum irure deserunt aute officia. Cillum duis proident laborum nostrud veniam aute consectetur velit. Ullamco et irure voluptate ad excepteur consequat adipisicing irure ad.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 348,
@@ -1815,7 +1815,7 @@ exports.seed = function(knex) {
           description:
             'Reprehenderit nostrud sit in quis ipsum. Dolore occaecat occaecat aliqua aliquip sit do. Duis dolore occaecat amet velit. Ex minim eiusmod consequat culpa laboris dolore eiusmod. Officia pariatur voluptate exercitation labore do et veniam officia reprehenderit eiusmod sint veniam nulla.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 355,
@@ -1833,7 +1833,7 @@ exports.seed = function(knex) {
           description:
             'Sit dolor reprehenderit qui nulla irure consequat fugiat amet duis mollit. Ut mollit sunt ut dolore dolor adipisicing veniam aute mollit veniam elit laboris voluptate adipisicing. Nulla laborum aute est ex irure sunt laboris nisi enim adipisicing anim. Adipisicing laborum irure irure aliqua. Ea proident nulla sunt velit ut incididunt amet.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 65,
@@ -1851,7 +1851,7 @@ exports.seed = function(knex) {
           description:
             'Aliqua ullamco magna non voluptate. In ullamco enim consequat consectetur deserunt ex velit aute tempor proident anim veniam. Do consequat nulla voluptate nisi nulla mollit nisi irure nulla nostrud enim est consequat pariatur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 355,
@@ -1887,7 +1887,7 @@ exports.seed = function(knex) {
           description:
             'Exercitation ut ad in occaecat proident. Duis cillum tempor labore ad aute est cupidatat. Reprehenderit tempor laborum ipsum enim laboris dolor dolore incididunt.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 465,
@@ -1905,7 +1905,7 @@ exports.seed = function(knex) {
           description:
             'Anim voluptate quis deserunt aliqua ut. Et ut tempor aute aute culpa commodo aliqua pariatur velit. Proident officia aliqua aliqua cupidatat quis nisi dolor laboris elit aute dolor eiusmod qui velit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 167,
@@ -1915,7 +1915,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Practice',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Turnling',
           creator: 'Burt Maddox',
           creation_year: 2012,
@@ -1923,7 +1923,7 @@ exports.seed = function(knex) {
           description:
             'Excepteur incididunt ad dolore eiusmod irure eiusmod anim aute culpa. Sunt et in commodo est ea cupidatat fugiat. Voluptate consequat eu elit nulla et aliquip aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 268,
@@ -1941,7 +1941,7 @@ exports.seed = function(knex) {
           description:
             'Culpa ullamco sint sint veniam aute officia ullamco do commodo consequat esse ullamco. Ex incididunt elit duis magna do mollit. Esse tempor eiusmod excepteur sint culpa aliquip ipsum et velit irure. Do esse magna sit consectetur magna. Sint culpa non in ad sint consequat incididunt commodo amet non ea magna voluptate sit. Deserunt esse non ex occaecat labore. Enim Lorem deserunt laborum ut duis cupidatat ullamco nulla reprehenderit esse.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 348,
@@ -1959,7 +1959,7 @@ exports.seed = function(knex) {
           description:
             'Adipisicing ad aliquip velit nisi laborum commodo do velit commodo cupidatat cupidatat ea. Laboris velit sunt exercitation cupidatat laboris voluptate eiusmod minim aute labore officia Lorem reprehenderit. Ad veniam laborum exercitation pariatur adipisicing proident occaecat anim et eu enim exercitation et excepteur. Laboris labore non reprehenderit proident duis duis ex mollit cillum ipsum. Eiusmod ea quis ea ipsum et aliqua anim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 481,
@@ -1977,7 +1977,7 @@ exports.seed = function(knex) {
           description:
             'Magna ad deserunt Lorem elit dolor magna labore eiusmod qui. Exercitation voluptate et aliquip laboris non incididunt sunt anim anim proident adipisicing. Do veniam exercitation fugiat pariatur minim amet exercitation deserunt exercitation minim incididunt magna velit magna. Voluptate labore fugiat reprehenderit tempor est proident amet consectetur duis culpa fugiat amet.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 247,
@@ -1995,7 +1995,7 @@ exports.seed = function(knex) {
           description:
             'Duis tempor sit sunt exercitation esse aliqua culpa nostrud labore in laboris aliqua consectetur esse. Qui fugiat irure veniam nulla officia laborum aliquip non anim exercitation laborum non id nisi. Voluptate quis cupidatat duis labore aliqua eu. Occaecat ea anim voluptate pariatur eiusmod aliquip eu.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 352,
@@ -2031,7 +2031,7 @@ exports.seed = function(knex) {
           description:
             'Culpa reprehenderit reprehenderit reprehenderit exercitation aliqua deserunt ut est dolor minim aliqua. Veniam consectetur anim velit ullamco nulla sit. Do voluptate proident velit reprehenderit est aute qui ut sint ullamco.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 246,
@@ -2059,7 +2059,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Gear',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Isologica',
           creator: 'William Guthrie',
           creation_year: 2018,
@@ -2085,7 +2085,7 @@ exports.seed = function(knex) {
           description:
             'Nulla amet nostrud sunt voluptate ad culpa anim eu quis id est incididunt non. Et ex aliquip voluptate sunt commodo ipsum ullamco pariatur magna. Ad magna pariatur dolor labore reprehenderit amet laborum tempor velit consectetur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 42,
@@ -2121,7 +2121,7 @@ exports.seed = function(knex) {
           description:
             'Amet nisi officia veniam ea cupidatat laboris pariatur aliquip aliqua. Officia velit duis irure esse incididunt dolor. Eiusmod magna sint sit cupidatat elit consectetur reprehenderit ad magna non et excepteur commodo. Reprehenderit mollit Lorem aliqua consequat sunt. Eu velit minim culpa dolore nisi dolore do do nostrud amet aute deserunt. Excepteur amet eu anim non eu sunt dolore pariatur anim minim nulla eiusmod culpa. Laboris ullamco do excepteur nostrud dolor consectetur ut adipisicing exercitation magna officia quis ad laborum.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 213,
@@ -2139,7 +2139,7 @@ exports.seed = function(knex) {
           description:
             'Commodo esse quis labore ullamco non irure veniam enim minim fugiat. Consequat id in pariatur quis fugiat. Culpa cupidatat ad ullamco elit occaecat deserunt et quis exercitation ad aliquip eiusmod velit. Enim nisi quis occaecat Lorem eu officia ullamco tempor. Sint veniam eiusmod adipisicing anim ipsum adipisicing elit sunt aute consectetur. Duis culpa minim laboris enim ullamco veniam magna ut cupidatat adipisicing incididunt dolore quis ullamco.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 124,
@@ -2157,7 +2157,7 @@ exports.seed = function(knex) {
           description:
             'Nisi ea eu voluptate elit. Consequat et ea culpa duis laboris sint ullamco. Et labore aute et ullamco qui. Laboris officia ipsum laboris duis non consectetur enim consequat. Anim id exercitation ullamco aute laborum tempor velit amet dolore.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 38,
@@ -2193,7 +2193,7 @@ exports.seed = function(knex) {
           description:
             'Occaecat eiusmod amet reprehenderit nisi. Quis nisi eu et sunt officia irure aute officia velit est sunt. Sit tempor excepteur tempor labore irure amet laboris aute ut id et aute aliquip aliqua.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 59,
@@ -2211,7 +2211,7 @@ exports.seed = function(knex) {
           description:
             'Anim laborum cupidatat ut tempor cillum cillum incididunt aliquip aliqua laborum aliquip culpa excepteur tempor. Mollit officia aliqua est irure velit sunt eiusmod. Occaecat sunt incididunt proident do aute pariatur aute irure duis magna. Dolor tempor ea nisi duis. Ea adipisicing eu reprehenderit enim labore anim non velit mollit nulla nulla occaecat non. Non cillum officia eu minim. Officia nulla elit eiusmod ad ut ex sit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 22,
@@ -2229,7 +2229,7 @@ exports.seed = function(knex) {
           description:
             'Culpa ipsum commodo dolor esse in nostrud aute elit laboris consequat. Deserunt laboris culpa consequat velit irure id aliqua nisi pariatur veniam qui eu voluptate velit. Nisi quis eu id ullamco elit officia exercitation enim veniam esse reprehenderit. Deserunt veniam esse eu laborum sint amet ipsum. Tempor anim nulla nulla laborum dolor. Qui in magna tempor officia elit ex id in anim in ut do.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 428,
@@ -2247,7 +2247,7 @@ exports.seed = function(knex) {
           description:
             'Pariatur anim ea velit minim do pariatur aute dolore quis. Ut amet veniam qui enim aliquip nostrud in cupidatat exercitation aute dolore. Ut ex commodo excepteur sunt. Voluptate dolore labore incididunt id nulla amet laboris ea cillum qui.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 488,
@@ -2257,7 +2257,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Fun',
-          subtype: 'YouTube Channels',
+          subtype: 'Youtube Channels',
           title: 'Sulfax',
           creator: 'Amalia Carter',
           creation_year: 2019,
@@ -2265,7 +2265,7 @@ exports.seed = function(knex) {
           description:
             'Labore anim proident ut aliquip labore irure incididunt pariatur ullamco ipsum sint ullamco laborum nostrud. Eu mollit adipisicing id commodo ad est. Magna fugiat ex tempor ipsum in.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 417,
@@ -2293,7 +2293,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Career',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Exotechno',
           creator: 'Beatriz Marquez',
           creation_year: 2015,
@@ -2301,7 +2301,7 @@ exports.seed = function(knex) {
           description:
             'Dolore ipsum duis et tempor. Consectetur nostrud eu laboris consequat ullamco quis fugiat anim proident laborum do eiusmod id. Consequat laborum in occaecat ex. Ipsum ea reprehenderit amet minim. Est in minim veniam voluptate consequat laborum aliqua.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 258,
@@ -2319,7 +2319,7 @@ exports.seed = function(knex) {
           description:
             'Anim labore officia aliquip dolor. Enim minim elit veniam nisi occaecat irure laborum ut occaecat mollit quis. Mollit irure irure in culpa dolor. Occaecat irure qui ea dolore ex qui quis id voluptate sunt cillum ad culpa pariatur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 64,
@@ -2355,7 +2355,7 @@ exports.seed = function(knex) {
           description:
             'Velit ex officia ullamco deserunt eu adipisicing irure in amet minim. Nulla aute enim sit voluptate nisi incididunt mollit consequat ea eiusmod Lorem eiusmod reprehenderit ullamco. Aute aute proident incididunt occaecat nostrud nisi veniam adipisicing ipsum in tempor culpa. Qui ad anim sit labore velit nisi ea quis ut.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 382,
@@ -2373,7 +2373,7 @@ exports.seed = function(knex) {
           description:
             'Cupidatat officia ad sint dolore consequat proident amet et velit. Velit aliquip non proident laborum occaecat est ex amet eiusmod exercitation aute nostrud in. Quis irure do aliquip aute aliqua. Enim aliquip eiusmod magna ipsum dolore duis.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 375,
@@ -2391,7 +2391,7 @@ exports.seed = function(knex) {
           description:
             'Et sunt non tempor tempor ea consequat excepteur ut do irure pariatur irure qui. Pariatur adipisicing veniam duis deserunt laboris eu laboris cupidatat in aute. Et ex qui ea anim eiusmod consectetur tempor dolore eu.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 13,
@@ -2427,7 +2427,7 @@ exports.seed = function(knex) {
           description:
             'Id pariatur commodo duis ad nostrud enim ea commodo sunt veniam. Veniam commodo ad irure non labore consectetur duis eiusmod exercitation aliquip. Aute consequat non incididunt nisi non veniam consequat. Dolore id voluptate tempor mollit exercitation eiusmod elit consectetur amet amet. Consequat nostrud ut adipisicing sint consequat duis laborum adipisicing.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 95,
@@ -2463,7 +2463,7 @@ exports.seed = function(knex) {
           description:
             'Eiusmod exercitation amet sit ipsum consequat ipsum. Ut cupidatat duis nostrud ex nostrud sit est. Eu sit quis ex pariatur eiusmod nostrud sunt irure proident commodo. Dolore ad mollit id commodo minim cillum quis reprehenderit officia ullamco velit minim reprehenderit. Aliqua sunt duis reprehenderit id est ipsum ipsum do. Officia Lorem sint consequat ad officia eiusmod et eu sit id mollit quis. Amet labore pariatur et nisi adipisicing elit magna nisi elit eu Lorem magna qui.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 400,
@@ -2481,7 +2481,7 @@ exports.seed = function(knex) {
           description:
             'Id ea ex dolor duis tempor labore id. Proident nulla nulla nisi consequat aute. Adipisicing Lorem officia est pariatur in nisi ea fugiat id deserunt deserunt. Enim occaecat sint laborum aute. Tempor culpa veniam eiusmod fugiat duis adipisicing incididunt velit non nisi veniam mollit incididunt. Proident ea laborum pariatur anim ullamco sunt aute officia. Cupidatat labore consectetur incididunt commodo voluptate ad ut Lorem voluptate cillum ut sit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 388,
@@ -2499,7 +2499,7 @@ exports.seed = function(knex) {
           description:
             'Eiusmod occaecat consequat pariatur ut minim duis adipisicing sit. Aute proident sit esse sunt fugiat Lorem laborum ullamco aliqua. Sunt Lorem sint excepteur aute reprehenderit do exercitation ullamco anim. Consequat commodo pariatur adipisicing sint ex. Labore aliquip consectetur qui dolore consectetur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 278,
@@ -2527,7 +2527,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Media',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Immunics',
           creator: 'Carole Hurst',
           creation_year: 2002,
@@ -2553,7 +2553,7 @@ exports.seed = function(knex) {
           description:
             'Exercitation dolore ad aliquip ullamco mollit tempor deserunt consectetur laborum velit ut velit. Commodo enim ut eu cupidatat reprehenderit sunt reprehenderit. Lorem Lorem duis sit incididunt.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 21,
@@ -2563,7 +2563,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Gear',
-          subtype: 'YouTube Videos',
+          subtype: 'Youtube Videos',
           title: 'Tubalum',
           creator: 'Gould Whitehead',
           creation_year: 2008,
@@ -2571,7 +2571,7 @@ exports.seed = function(knex) {
           description:
             'Dolore laborum irure consectetur tempor amet ad anim et sint amet anim non ut et. Officia eu ad labore non duis cillum excepteur esse cillum id dolor elit. Exercitation aute velit ullamco aute magna culpa minim occaecat quis excepteur sint in duis. Minim deserunt laborum sit culpa consequat ad ea laborum.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 499,
@@ -2581,7 +2581,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Media',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Retrotex',
           creator: 'Higgins Dixon',
           creation_year: 2020,
@@ -2589,7 +2589,7 @@ exports.seed = function(knex) {
           description:
             'Sint nulla aliquip Lorem elit minim pariatur dolor dolore aute veniam fugiat magna. Culpa ad sint aliquip labore dolore ad irure est. Proident eu et proident et. Minim incididunt id exercitation ex dolor ullamco est.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 446,
@@ -2643,7 +2643,7 @@ exports.seed = function(knex) {
           description:
             'Excepteur veniam do velit nisi dolore amet aliqua aliqua ad mollit ut eu. Elit sint aliquip duis cillum ad nostrud fugiat ex consectetur et. Dolore incididunt minim ipsum mollit adipisicing deserunt non labore officia quis.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 413,
@@ -2707,7 +2707,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Career',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Twiist',
           creator: 'Trina Guerrero',
           creation_year: 2009,
@@ -2715,7 +2715,7 @@ exports.seed = function(knex) {
           description:
             'Velit eiusmod aliquip reprehenderit amet aliquip aliqua. Voluptate aliquip cillum id occaecat. Exercitation adipisicing dolore quis labore Lorem amet est ad aute excepteur consectetur anim laborum elit. Nulla ipsum pariatur eiusmod reprehenderit officia exercitation ipsum id ad ea sit elit. Sit mollit irure irure ex adipisicing veniam ut sint mollit laborum et eiusmod. Culpa id in tempor cillum excepteur dolor mollit sit eiusmod magna mollit nostrud.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 27,
@@ -2733,7 +2733,7 @@ exports.seed = function(knex) {
           description:
             'Occaecat anim consequat reprehenderit culpa ut laboris excepteur dolor officia officia exercitation ex ullamco. Aute pariatur tempor aliquip ad dolore reprehenderit pariatur consectetur qui cupidatat veniam sint ea exercitation. Quis officia aliqua Lorem ullamco eu.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 124,
@@ -2769,7 +2769,7 @@ exports.seed = function(knex) {
           description:
             'Aliqua ea mollit magna aliquip. Aliqua aliquip labore adipisicing labore consequat amet est minim magna proident esse non ipsum. Magna est eu ad enim proident veniam veniam fugiat. Qui veniam est exercitation dolore pariatur elit laborum est consectetur exercitation laboris nisi. Velit ad ea proident nisi irure amet dolor dolor.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 313,
@@ -2779,7 +2779,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Gear',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Isosphere',
           creator: 'Robertson Dominguez',
           creation_year: 2014,
@@ -2787,7 +2787,7 @@ exports.seed = function(knex) {
           description:
             'Ex officia mollit sit commodo laboris irure cillum cillum occaecat magna veniam laboris. Reprehenderit sint aute est elit elit esse ad veniam consequat. Minim culpa laborum qui id ex. Dolore nostrud veniam voluptate exercitation aute id labore qui anim. Veniam sit incididunt voluptate est.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 299,
@@ -2805,7 +2805,7 @@ exports.seed = function(knex) {
           description:
             'Fugiat dolore duis velit aute anim fugiat irure occaecat magna esse dolore cillum. Nostrud pariatur ex sunt cillum laborum labore. Commodo occaecat reprehenderit velit culpa consectetur anim minim minim nostrud sint ipsum ea nulla id. Voluptate cillum adipisicing do ex incididunt velit sunt cillum excepteur occaecat dolor exercitation.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 487,
@@ -2815,7 +2815,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Print',
-          subtype: 'YouTube Channels',
+          subtype: 'Youtube Channels',
           title: 'Ontagene',
           creator: 'Aileen Ware',
           creation_year: 2001,
@@ -2823,7 +2823,7 @@ exports.seed = function(knex) {
           description:
             'Ea tempor esse consectetur velit sint est adipisicing esse in anim. Anim culpa ut cillum id ex esse cupidatat labore cupidatat. Nulla minim reprehenderit est et veniam labore velit irure. Et quis officia laboris sunt. Sint veniam dolor non incididunt aliqua proident qui est labore. Incididunt ullamco consectetur veniam nisi laboris eiusmod cillum et aliqua laboris sint. Velit elit duis eiusmod exercitation dolor tempor aliqua.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 148,
@@ -2859,7 +2859,7 @@ exports.seed = function(knex) {
           description:
             'Laborum do dolore laboris proident elit nisi ea esse ad. Cillum est fugiat est nisi dolor mollit reprehenderit nisi irure anim velit officia. In consectetur adipisicing ullamco laboris deserunt officia elit quis labore minim fugiat anim mollit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 245,
@@ -2877,7 +2877,7 @@ exports.seed = function(knex) {
           description:
             'Commodo veniam quis magna velit anim. Sit aute nostrud ea qui. Cupidatat qui do consequat voluptate ex consequat non et esse sit. Enim excepteur est velit consequat. Minim Lorem duis proident ad reprehenderit ut duis dolore eiusmod reprehenderit laboris. Quis eu voluptate ut amet aute veniam veniam elit ex pariatur ad commodo. Sint magna sunt dolore aliquip eu do quis magna ea tempor amet.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 6,
@@ -2895,7 +2895,7 @@ exports.seed = function(knex) {
           description:
             'Aute amet nostrud in nulla ea ex minim id veniam consectetur voluptate in. Ea in veniam quis sunt et proident sint. Culpa ea Lorem nulla ullamco amet dolore minim ea id quis.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 266,
@@ -2931,7 +2931,7 @@ exports.seed = function(knex) {
           description:
             'Esse eu laboris enim pariatur minim aliqua nulla do incididunt exercitation est pariatur. Dolor est aute pariatur sunt laboris eiusmod quis commodo aute. Laborum qui nostrud velit culpa elit veniam nulla voluptate reprehenderit minim duis. Eu fugiat irure dolor duis laboris ad. Sit officia nulla id sint et amet enim velit occaecat dolor cupidatat in. In in laborum dolor eiusmod non velit id commodo mollit ut voluptate.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 438,
@@ -2949,7 +2949,7 @@ exports.seed = function(knex) {
           description:
             'Qui magna laboris pariatur Lorem occaecat sint et ipsum tempor enim irure. Voluptate do officia velit laborum nisi pariatur sit consectetur dolor non veniam. Veniam ex et labore Lorem qui ipsum commodo dolor laborum nisi fugiat adipisicing aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 484,
@@ -2967,7 +2967,7 @@ exports.seed = function(knex) {
           description:
             'Ut reprehenderit irure sit ea eiusmod qui esse ullamco. Veniam ut veniam laboris consequat velit ut anim fugiat tempor non reprehenderit reprehenderit eu anim. Nisi do nulla ex do qui. Est nostrud officia commodo nostrud consectetur do incididunt eiusmod occaecat sint occaecat non ipsum. Qui nisi eu sit id amet exercitation nostrud et anim Lorem. Minim nulla enim pariatur magna reprehenderit enim dolor elit anim excepteur ullamco ut. Culpa culpa adipisicing aute officia adipisicing amet nostrud proident commodo pariatur deserunt culpa irure ea.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 256,
@@ -2977,7 +2977,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Education',
-          subtype: 'YouTube Channels',
+          subtype: 'Youtube Channels',
           title: 'Xyqag',
           creator: 'Hardin Santiago',
           creation_year: 2012,
@@ -2985,7 +2985,7 @@ exports.seed = function(knex) {
           description:
             'Dolore elit excepteur non esse officia aute proident officia ex nulla ad labore aute sit. Sint incididunt in est velit. Culpa eiusmod in elit et id proident amet.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 296,
@@ -3003,7 +3003,7 @@ exports.seed = function(knex) {
           description:
             'Sunt ea Lorem ipsum incididunt occaecat et nisi irure ullamco proident. Sit eiusmod occaecat cupidatat aliqua excepteur tempor labore non dolore. Et ullamco irure veniam labore tempor esse pariatur aliquip. Nostrud id commodo nulla fugiat laboris culpa do eiusmod nisi anim non reprehenderit velit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 207,
@@ -3021,7 +3021,7 @@ exports.seed = function(knex) {
           description:
             'Veniam ad commodo enim sint quis exercitation dolore dolore incididunt anim nisi. Laborum Lorem reprehenderit sit velit amet dolore exercitation cillum non minim. Cillum sit mollit qui id ullamco id pariatur cupidatat id irure. Reprehenderit Lorem eu laborum consequat ex pariatur ea labore sunt aliquip adipisicing. Ex sunt ex eiusmod duis ad in ex fugiat nostrud reprehenderit. Elit proident sint mollit sit cupidatat est aliquip aute ullamco ipsum nulla. Nisi nisi adipisicing do occaecat reprehenderit veniam et laborum eu veniam excepteur non deserunt enim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Advanced',
           age: 'new',
           shares: 39,
@@ -3039,7 +3039,7 @@ exports.seed = function(knex) {
           description:
             'Officia pariatur duis labore amet amet laboris veniam enim id cillum laboris aliqua cupidatat. Enim reprehenderit nostrud incididunt duis aliqua quis nisi ea reprehenderit labore fugiat commodo ea qui. Duis irure reprehenderit dolore ex in adipisicing id sit irure et officia exercitation.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 230,
@@ -3057,7 +3057,7 @@ exports.seed = function(knex) {
           description:
             'Cillum consequat nostrud minim nisi cillum labore magna aliquip do. Laborum aliqua consectetur do consectetur. Dolore irure ea irure mollit. Ut esse consequat nisi ipsum ipsum laborum veniam laborum qui voluptate irure pariatur eiusmod. Do culpa eu tempor minim ex incididunt nostrud exercitation commodo mollit voluptate proident excepteur excepteur. Cillum id duis mollit veniam.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 20,
@@ -3075,7 +3075,7 @@ exports.seed = function(knex) {
           description:
             'Culpa non adipisicing aute sunt labore aliquip esse exercitation laborum officia esse nisi tempor tempor. Ea quis veniam sunt deserunt non est minim officia nostrud enim laboris tempor culpa id. Fugiat minim occaecat culpa cillum velit ex. Aliqua occaecat et ex in veniam in voluptate est elit dolor minim aliqua pariatur Lorem. Magna officia excepteur veniam dolore nisi culpa veniam commodo excepteur proident cillum veniam aliqua. Non reprehenderit do reprehenderit pariatur dolore consectetur amet aliquip. Esse fugiat pariatur nulla enim nulla sint elit id officia ullamco ex elit in laborum.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Beginner',
           age: 'old',
           shares: 491,
@@ -3093,7 +3093,7 @@ exports.seed = function(knex) {
           description:
             'Cillum dolore ad irure eiusmod laboris minim labore. Esse occaecat velit Lorem elit eu fugiat mollit labore sunt eu minim eiusmod ea. Duis elit ex sit nulla pariatur fugiat laborum.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 244,
@@ -3111,7 +3111,7 @@ exports.seed = function(knex) {
           description:
             'Voluptate commodo eiusmod eu exercitation et ullamco cupidatat veniam cillum sint voluptate cupidatat do. Ad mollit reprehenderit quis Lorem exercitation. Aliqua mollit ex nostrud magna commodo cupidatat ex. Irure sint eu mollit reprehenderit culpa proident proident culpa irure sint cillum proident labore duis. Cupidatat Lorem voluptate reprehenderit nisi voluptate veniam ipsum nostrud do fugiat nulla ea. Duis Lorem Lorem do sunt laboris ipsum mollit ea.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 16,
@@ -3129,7 +3129,7 @@ exports.seed = function(knex) {
           description:
             'Minim labore ullamco officia culpa voluptate et aute irure sint deserunt commodo ipsum. Aliqua mollit enim consectetur laborum voluptate. Veniam magna duis magna mollit cupidatat ad officia. Tempor occaecat nisi incididunt cillum fugiat aliquip ex sit ullamco veniam anim in. Adipisicing enim fugiat tempor laboris irure anim et eu excepteur mollit ipsum. Enim consequat sint anim officia. Ullamco amet esse aliqua cillum laborum dolore nulla.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 68,
@@ -3147,7 +3147,7 @@ exports.seed = function(knex) {
           description:
             'Dolor occaecat est cillum sint. Deserunt fugiat ex consequat ea ut sit eu est officia. Eu excepteur officia sint quis tempor anim dolore proident et consequat.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 74,
@@ -3183,7 +3183,7 @@ exports.seed = function(knex) {
           description:
             'Non nulla id magna duis sint qui aliquip est proident qui veniam. Magna laboris commodo aute irure cillum ut incididunt ut cillum sint pariatur fugiat nulla irure. Ipsum ipsum veniam cillum reprehenderit commodo nostrud est anim pariatur commodo deserunt. Do tempor nostrud cillum ut sit duis et ullamco nostrud enim voluptate nostrud. Elit proident mollit mollit consequat occaecat labore esse minim consequat.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 378,
@@ -3211,7 +3211,7 @@ exports.seed = function(knex) {
         },
         {
           type: 'Tech',
-          subtype: 'YouTube Playlists',
+          subtype: 'Youtube Playlists',
           title: 'Uncorp',
           creator: 'Bullock Massey',
           creation_year: 2006,
@@ -3219,7 +3219,7 @@ exports.seed = function(knex) {
           description:
             'Reprehenderit Lorem reprehenderit sunt ullamco occaecat labore occaecat incididunt ex aliqua sint duis nulla. Ullamco adipisicing qui Lorem mollit laboris excepteur. Do adipisicing voluptate ipsum culpa eu reprehenderit dolor amet. Non ullamco deserunt nisi elit esse cupidatat nisi proident amet dolore aliqua ea aliquip ullamco. Nisi aliqua dolore aute ullamco. Occaecat enim sit commodo ipsum commodo do est est anim officia.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 228,
@@ -3237,7 +3237,7 @@ exports.seed = function(knex) {
           description:
             'Cupidatat ea sit eiusmod et ad tempor eu minim nostrud eu consectetur tempor voluptate. Non pariatur ipsum aute culpa quis id nulla voluptate ex sit magna et deserunt. Quis est incididunt aute cillum minim do mollit nisi aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 362,
@@ -3291,7 +3291,7 @@ exports.seed = function(knex) {
           description:
             'Anim magna deserunt sint adipisicing nulla. Do labore proident ea eu nisi magna elit irure tempor nulla enim. Id nostrud exercitation dolore nisi tempor culpa qui esse. Reprehenderit irure occaecat duis tempor elit qui officia veniam. Cupidatat reprehenderit eiusmod aute et excepteur id nisi officia.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 189,
@@ -3309,7 +3309,7 @@ exports.seed = function(knex) {
           description:
             'Laboris deserunt commodo aliqua officia. Ipsum et dolor tempor Lorem fugiat dolor veniam anim nostrud. Ex elit aute tempor incididunt et do cupidatat dolore sunt excepteur eiusmod sint aliquip.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 91,
@@ -3345,7 +3345,7 @@ exports.seed = function(knex) {
           description:
             'Pariatur nisi sit excepteur magna nulla anim sint non. Ex in laborum quis consectetur quis do eiusmod excepteur mollit. Labore ut in adipisicing Lorem minim magna dolore et sint sunt cupidatat esse magna.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Advanced',
           age: 'new',
           shares: 349,
@@ -3381,7 +3381,7 @@ exports.seed = function(knex) {
           description:
             'Aliqua occaecat ullamco reprehenderit et ex pariatur consectetur. Ea ea deserunt duis qui exercitation dolore. Eiusmod sunt cupidatat exercitation incididunt officia voluptate dolor occaecat. Voluptate consequat nulla et elit proident amet laboris.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 78,
@@ -3417,7 +3417,7 @@ exports.seed = function(knex) {
           description:
             'Aute occaecat laborum quis non elit laboris anim dolore culpa id non cillum labore. Lorem deserunt voluptate aliquip et cillum voluptate esse. Exercitation veniam qui cupidatat adipisicing mollit dolore quis incididunt labore. Enim deserunt ullamco Lorem consequat non eiusmod mollit in dolore nostrud. Culpa nisi magna eiusmod esse deserunt excepteur.\r\n',
           image: 'someRandoImg.jpeg',
-          price: '$20-$100',
+          price: 'over20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 209,
@@ -3489,7 +3489,7 @@ exports.seed = function(knex) {
           description:
             'Laboris incididunt dolor consectetur laboris esse consectetur qui. Eiusmod culpa sit eu laboris dolore Lorem velit. Ex do aute laboris do. Laboris consequat duis irure dolore. Ad culpa sint eiusmod aute enim mollit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 199,
@@ -3507,7 +3507,7 @@ exports.seed = function(knex) {
           description:
             'Lorem consequat et id dolore eiusmod. Qui et sint nisi nisi deserunt ut nisi nulla. Dolore consequat pariatur anim adipisicing labore adipisicing eu sunt. Voluptate proident cillum sit ad nostrud aliqua. Pariatur officia cupidatat sit labore nisi anim ullamco fugiat labore cillum eu irure amet. Ipsum irure cupidatat reprehenderit proident duis culpa ad adipisicing ullamco dolor in. Ea ipsum exercitation duis labore do sint ex nulla labore ipsum cupidatat ea veniam minim.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 156,
@@ -3525,7 +3525,7 @@ exports.seed = function(knex) {
           description:
             'Ullamco nostrud minim amet anim laborum deserunt laboris voluptate laborum cupidatat nostrud veniam eu laborum. Pariatur Lorem adipisicing officia esse excepteur consequat excepteur aliquip quis. Commodo pariatur in commodo minim incididunt velit velit cupidatat ex aute ipsum mollit veniam laborum. Aute nisi nostrud amet velit.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Beginner',
           age: 'old',
           shares: 302,
@@ -3543,7 +3543,7 @@ exports.seed = function(knex) {
           description:
             'Qui consectetur et eu aliqua officia cillum commodo proident dolor. Aliqua elit officia esse in aute culpa cupidatat fugiat occaecat nisi laborum enim. Ea laborum reprehenderit ipsum cupidatat ut consectetur id culpa consequat laboris. Sint minim ut Lorem sint esse.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'under $20',
+          price: 'under20',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 425,
@@ -3561,7 +3561,7 @@ exports.seed = function(knex) {
           description:
             'Cillum cillum officia ullamco culpa exercitation sit. Excepteur elit ullamco sit adipisicing esse tempor. Exercitation officia pariatur reprehenderit duis et. Officia incididunt ipsum ea amet deserunt culpa deserunt consectetur eiusmod. Pariatur et nisi duis proident sint. Officia duis excepteur et cupidatat aliquip esse. Non nulla magna irure quis velit fugiat voluptate ea nostrud.\r\n',
           image: 'someRandoImg.jpeg',
-          price: 'over $100',
+          price: 'over100',
           skill_level: 'Intermediate',
           age: 'new',
           shares: 209,

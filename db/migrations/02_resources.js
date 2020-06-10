@@ -11,6 +11,7 @@ exports.up = function(knex, Promise) {
     table.string('image');
     table.string('price').notNullable();
     table.string('skill_level').notNullable();
+    table.string('age').notNullable();
     table.integer('shares').notNullable();
     table.integer('upvotes').notNullable();
     table.integer('downvotes').notNullable();

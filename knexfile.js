@@ -1,4 +1,4 @@
-const { DB_USERNAME, DB_PASSWORD, DB_PORT, DB_HOST, DB_NAME } = process.env;
+const { DB_USERNAME, DB_PASSWORD, DB_PORT, DB_HOST, DB_NAME, DATABASE_URL } = process.env;
 
 const connectionString =
   process.platform === 'win32'
@@ -10,7 +10,7 @@ const newConnectionString = `postgres://localhost/dev_resources`;
 module.exports = {
   development: {
     client: 'pg',
-    connection: newConnectionString,
+    connection: DATABASE_URL,
     migrations: {
       directory: `${__dirname}/db/migrations`,
     },

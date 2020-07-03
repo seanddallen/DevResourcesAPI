@@ -10,7 +10,7 @@ const newConnectionString = `postgres://localhost/dev_resources`;
 module.exports = {
   development: {
     client: 'pg',
-    connection: DATABASE_URL,
+    connection: newConnectionString,
     migrations: {
       directory: `${__dirname}/db/migrations`,
     },

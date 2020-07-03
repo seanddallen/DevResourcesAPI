@@ -1,4 +1,4 @@
-const { DB_USERNAME, DB_PASSWORD, DB_PORT, DB_HOST, DB_NAME } = process.env;
+const { DB_USERNAME, DB_PASSWORD, DB_PORT, DB_HOST, DB_NAME, DATABASE_URL } = process.env;
 
 const connectionString =
   process.platform === 'win32'
